@@ -26,9 +26,10 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'forestfsl' => 'fengsonglin@beiyugame.com' }
   s.source           = { :git => 'https://github.com/forestfsl/SegmentView.git', :tag => s.version.to_s }
+  
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'SegmentView/Classes/**/*'
   
@@ -37,6 +38,20 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
+#依赖系统库
   # s.frameworks = 'UIKit', 'MapKit'
+#开源库依赖库
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry'
+  s.dependency 'CTMediator'
+  
+#添加系统依赖静态库
+ #s.library = 'sqlite3', 'xml2'
+ 
+ #静态库.a
+ #s.vendored_library = 'XXXX/XXX/XXX.a', 'YYY/YYY/Y.a'
+ 
+ #在 podspec 文件中添加 s.static_framework = true，CocoaPods 就会把这个库配置成static framework。同时支持 Swift 和 Objective-C
+ #s.static_framework = true
+ 
 end

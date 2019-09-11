@@ -1,0 +1,16 @@
+PODS:
+  - SegmentView (0.1.0)
+
+DEPENDENCIES:
+  - SegmentView (from `../`)
+
+EXTERNAL SOURCES:
+  SegmentView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SegmentView: a1464aa9a430bab635029734d2031df7d55fba90
+
+PODFILE CHECKSUM: 7819f95960f4c1051f500e47912a842de98f652a
+
+COCOAPODS: 1.5.3
