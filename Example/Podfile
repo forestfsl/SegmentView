@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SegmentView_Example' do
+  pod 'SegmentView', :path => '../'
+
+  target 'SegmentView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
