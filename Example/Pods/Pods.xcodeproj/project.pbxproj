@@ -9,8 +9,42 @@
 /* Begin PBXBuildFile section */
 		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D40AA9C03A040D41D80EF4DC28D682EF /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 505C4572E7855313D342DBFF8A2BD992 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06FB563C7337E9E79ED678D183E10BC8 /* SegmentAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F98AE561FF2B4228BC075D15675FA0E0 /* SegmentAnimationManager.m */; };
-		0882C20662223FE58930E06E0C32436D /* SegmentGameServiceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C9EE6F98F9F13A324DF53B7E17A23C /* SegmentGameServiceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		075B9090233244F100E8DEB8 /* Target_SegmentViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B908E233244F100E8DEB8 /* Target_SegmentViewHandler.m */; };
+		075B9091233244F100E8DEB8 /* Target_SegmentViewHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B908F233244F100E8DEB8 /* Target_SegmentViewHandler.h */; };
+		075B90A62332453E00E8DEB8 /* SegmentCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90932332453E00E8DEB8 /* SegmentCheckBoxGroup.h */; };
+		075B90A72332453E00E8DEB8 /* SegmentTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90942332453E00E8DEB8 /* SegmentTextField.h */; };
+		075B90A82332453E00E8DEB8 /* SegmentAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90952332453E00E8DEB8 /* SegmentAnimationManager.h */; };
+		075B90A92332453E00E8DEB8 /* SegmentPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90962332453E00E8DEB8 /* SegmentPathManager.h */; };
+		075B90AA2332453E00E8DEB8 /* SegmentCheckBoxManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90972332453E00E8DEB8 /* SegmentCheckBoxManager.h */; };
+		075B90AB2332453E00E8DEB8 /* SegmentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90982332453E00E8DEB8 /* SegmentButton.m */; };
+		075B90AC2332453E00E8DEB8 /* SegmentCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90992332453E00E8DEB8 /* SegmentCheckBoxGroup.m */; };
+		075B90AD2332453E00E8DEB8 /* SegmentAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B909A2332453E00E8DEB8 /* SegmentAnimationManager.m */; };
+		075B90AE2332453E00E8DEB8 /* SegmentTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B909B2332453E00E8DEB8 /* SegmentTextField.m */; };
+		075B90AF2332453E00E8DEB8 /* SegmentCheckBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B909C2332453E00E8DEB8 /* SegmentCheckBoxManager.m */; };
+		075B90B02332453E00E8DEB8 /* SegmentPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B909D2332453E00E8DEB8 /* SegmentPathManager.m */; };
+		075B90B12332453E00E8DEB8 /* SegmentButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B909E2332453E00E8DEB8 /* SegmentButton.h */; };
+		075B90B22332453E00E8DEB8 /* SegmentConfigMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90A02332453E00E8DEB8 /* SegmentConfigMacro.h */; };
+		075B90B32332453E00E8DEB8 /* SegmentBundlePlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90A22332453E00E8DEB8 /* SegmentBundlePlistManager.m */; };
+		075B90B42332453E00E8DEB8 /* SegmentAvoidCrashDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90A32332453E00E8DEB8 /* SegmentAvoidCrashDictionary.m */; };
+		075B90B52332453E00E8DEB8 /* SegmentBundlePlistManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90A42332453E00E8DEB8 /* SegmentBundlePlistManager.h */; };
+		075B90B62332453E00E8DEB8 /* SegmentAvoidCrashDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90A52332453E00E8DEB8 /* SegmentAvoidCrashDictionary.h */; };
+		075B90C92332454F00E8DEB8 /* SegmentRegisterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90B82332454F00E8DEB8 /* SegmentRegisterView.h */; };
+		075B90CA2332454F00E8DEB8 /* BaseSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90B92332454F00E8DEB8 /* BaseSegmentView.m */; };
+		075B90CB2332454F00E8DEB8 /* SegmentMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90BA2332454F00E8DEB8 /* SegmentMainView.m */; };
+		075B90CC2332455000E8DEB8 /* SegmentGameServiceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90BB2332454F00E8DEB8 /* SegmentGameServiceView.h */; };
+		075B90CD2332455000E8DEB8 /* SegmentForgetPasswordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90BC2332454F00E8DEB8 /* SegmentForgetPasswordView.h */; };
+		075B90CE2332455000E8DEB8 /* SegmentFastRegisterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90BD2332454F00E8DEB8 /* SegmentFastRegisterView.h */; };
+		075B90CF2332455000E8DEB8 /* SegmentBindPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90BE2332454F00E8DEB8 /* SegmentBindPhoneView.m */; };
+		075B90D02332455000E8DEB8 /* SegmentProtocolView.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90BF2332454F00E8DEB8 /* SegmentProtocolView.h */; };
+		075B90D12332455000E8DEB8 /* SegmentHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90C02332454F00E8DEB8 /* SegmentHeader.h */; };
+		075B90D22332455000E8DEB8 /* SegmentRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90C12332454F00E8DEB8 /* SegmentRegisterView.m */; };
+		075B90D32332455000E8DEB8 /* SegmentFastRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90C22332454F00E8DEB8 /* SegmentFastRegisterView.m */; };
+		075B90D42332455000E8DEB8 /* SegmentForgetPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90C32332454F00E8DEB8 /* SegmentForgetPasswordView.m */; };
+		075B90D52332455000E8DEB8 /* SegmentGameServiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90C42332454F00E8DEB8 /* SegmentGameServiceView.m */; };
+		075B90D62332455000E8DEB8 /* SegmentMainView.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90C52332454F00E8DEB8 /* SegmentMainView.h */; };
+		075B90D72332455000E8DEB8 /* BaseSegmentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90C62332454F00E8DEB8 /* BaseSegmentView.h */; };
+		075B90D82332455000E8DEB8 /* SegmentProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B90C72332454F00E8DEB8 /* SegmentProtocolView.m */; };
+		075B90D92332455000E8DEB8 /* SegmentBindPhoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B90C82332454F00E8DEB8 /* SegmentBindPhoneView.h */; };
 		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 381DFAF011D64E6BF0AA91A324E021A6 /* ViewController+MASAdditions.m */; };
 		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E366B23003257FA16DC1D8B0BEFE0CE2 /* NSArray+MASAdditions.m */; };
 		0AAFB97958435F0519EACA098D26D5FC /* UIImageView+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E568B3EE0E5169F4A7BB741FEA2E068 /* UIImageView+Segment.m */; };
@@ -19,47 +53,33 @@
 		0DC608C27E8FA7A6A719C15F10277B2D /* CTMediator+Config.h in Headers */ = {isa = PBXBuildFile; fileRef = C09CA90F1BCB7FA0BBCF43046DC458C0 /* CTMediator+Config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		191744225F88342959253A45EF6E150B /* CTMediator+AppStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A40E33DF16079F36A955FEC72C6465 /* CTMediator+AppStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD3FECC2644CCBCBC11879654E6F45 /* Masonry-dummy.m */; };
-		1DF7273DDFC134C0167842D0614FCE19 /* SegmentLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABCD7168AF8181053E319E792716A9AA /* SegmentLoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E9F327B42931BB82EB1BBD1EA174A2D /* CTMediator+SegmentViewHud.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ABE4C4A3E9D4CF3AFFD6CEA0DC7314 /* CTMediator+SegmentViewHud.m */; };
-		24AC9D42FA2C47C56A83AF998B5B6766 /* SegmentPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A0BEFC78724D0BBEA8726FEA09DD6AB8 /* SegmentPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		257FA4C5BDC701E42893B946F0CB6DBE /* SegmentRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48848DC59A22D182DB5B011272A720F6 /* SegmentRegisterView.m */; };
 		26704B327F3DEB02478B174F14FDAA7C /* CTMediator+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7F4E945F60BC3FFD1085619B8B03F7 /* CTMediator+Config.m */; };
-		27358C3E4109849022A698D30EE0CE27 /* SegmentCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A8A530F6B0DBA9B4D416719CFAA287 /* SegmentCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 875591FE714760C4D59793ABDF8C5485 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2819E5182DD2E1105EF8034E69D06D44 /* UIImageView+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED4B010C3A6F4E9B392C244A9B93EDD /* UIImageView+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A444FF49739411ED2BA630E3839AF72D /* MASViewAttribute.m */; };
-		2FAFCB5FCC18F35F8698F852D021D8B1 /* SegmentMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A42C0A6FA140886115CEB6AFAEA246 /* SegmentMainView.m */; };
 		3307CBA59D8ACE98BBC4D1AABFF578B2 /* Pods-SegmentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD6996E7379FEF104F3A044307FC8FE /* Pods-SegmentView_Example-dummy.m */; };
 		33BD45B78DF5E6DBA38C835BEE73C88C /* UITextField+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 48693E30D55145E38D131F281771B9D7 /* UITextField+Segment.m */; };
-		3451065EA681452A8B6A6EEB171E3F36 /* SegmentBundlePlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4745B141937506C4B2D2EAF6C50EB4F0 /* SegmentBundlePlistManager.m */; };
 		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BABD9F84355FFEB7E6102ED0782A47 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3558E0EA4035830D1C066C1D8A2411B0 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9AF95824AB415F27284BCACE8078A1 /* CTMediator.framework */; };
 		36EAB655EFF6C60016420A8619CE9BFA /* CTMediator+ViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F58776BC87A7D005B6AD028C651C5D2 /* CTMediator+ViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C36B61E82FD0FEEBB8225B8C33FE687 /* UITextField+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = BB19B02121E392041A5FE40847970DCD /* UITextField+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE15F64019AC26CC71EAE39B4CB5005 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4133E523FA6048D25FE5C4FEE4AF5AD5 /* CTMediator+RequestAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B1BD43A63759AD123E46B420C5AE6A /* CTMediator+RequestAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41AC4BB0DF2BC625476A42177AC67B34 /* SegmentAvoidCrashDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FD78CFB78324BD80B2F90A0AA458F5 /* SegmentAvoidCrashDictionary.m */; };
 		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F2618FFECC312D102BEA4759C43CDB /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D89B697B8E952BAAC1A9C508AD3D187 /* UIView+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 604EB88F93A837C81AC8835DA29C62E5 /* UIView+Segment.m */; };
 		505086A7D590B5FB0444CA98F11452A4 /* UIView+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = E573B4B46B17C6896272F18F1898872F /* UIView+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		544EA790313710B663336E19F72035C9 /* SegmentTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF3F03066C31B7F2C3047CBD1F0720F /* SegmentTextField.m */; };
-		54886C6D3986476FB12332516D3212A5 /* SegmentHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0663AFEA913910E3F8BB5752A9BC8CB9 /* SegmentHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5553E7690FE1110761C857111905C60F /* CTMediatorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5D61E492DA2EB65A2B6EA7163A332B /* CTMediatorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		562E63BC67F26BA3150AA7609D5247DF /* SLCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F665B9A3B448459C08929E2AC9C8B22 /* SLCategory.framework */; };
 		566E84E77666EACA84C09FDFB4A26949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9773D360B95BE4AC677540B875618433 /* Foundation.framework */; };
 		58A7FE3CEDC89779BF942AC7F57D2860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9773D360B95BE4AC677540B875618433 /* Foundation.framework */; };
 		5F944FD6DDC7F9C86A449377B750FB1E /* NSString+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3CBD5D1615EA84130BF16830BF681E /* NSString+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FBB4E8454ED9B7333AB517E194771A5 /* Target_SegmentViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1AF554A57E8BD5E1FEA7C2A1EDABE4 /* Target_SegmentViewHandler.m */; };
 		6081BB59F36FF1C53CCEE7FA022997EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9773D360B95BE4AC677540B875618433 /* Foundation.framework */; };
 		61074613253AFCC7BFA3C9BAF2B257F3 /* UILabel+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = B24FD000F3B9E8A41CE82C5DD2AE1D55 /* UILabel+Segment.m */; };
-		647B0501619234F93D872C2952CCA458 /* SegmentFastRegisterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FFCF4660378EBA07E65DBF97A510CD8 /* SegmentFastRegisterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66E67BA9B536E3E0BF1C5504830C98E6 /* SegmentTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C5087C25CB1193DD7796A108EFD1CC /* SegmentTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6806B3E7FBB8F94B52BE9538F427377A /* NSData+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B8D1D3BF6236668DA91E7495B4C7CC /* NSData+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81225ED7517147ADAB7DE6239425288A /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CDE212884687D2C8BD4CAA8E534E0BE /* SegmentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C746FDE146E003C624F2302E99036D9 /* SegmentButton.m */; };
 		6F77C0D29016118B83C8C0EE8505F228 /* CTMediator+RequestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F1C55190EC96B4BF70630ADAC2B589 /* CTMediator+RequestAPI.m */; };
 		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EC54584881EE83C3F92033C3F3F9F /* MASConstraintMaker.m */; };
-		79860AB3D23277F79474634139B84054 /* BaseSegmentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8269C5679DD57092376B11D4F98AD071 /* BaseSegmentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B70D937039829E3AEAE478DF29DB17E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC3D4E8104C73DF83A7D965A79F332 /* UIKit.framework */; };
 		7BC6D113B5BD44312AF7EB89A05F12F5 /* Pods-SegmentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E471053248A0A4610299E86BE032BA /* Pods-SegmentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 51542619E408253CD6FCBA6386795708 /* MASCompositeConstraint.m */; };
@@ -67,17 +87,12 @@
 		861BBE677E02BED5A903153AB51B1237 /* CTMediaAFNetworkReachbilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98440B983931A36188B32302D918FD9B /* CTMediaAFNetworkReachbilityManager.m */; };
 		88BB7518BEA71C9DDB82BB8DED7ACA76 /* CategoryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = DADF58514F06D0E6103E8E2B5365E16E /* CategoryHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		890BBC1EBD01D29D376260F08D434C0D /* NSDictionary+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8C80D8521420ED26D8C01677403A73 /* NSDictionary+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A8ACBF44829C5F0A139B7EFDFB38E28 /* SegmentRegisterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5B1FF34D570C8C0E131420A38C57CE /* SegmentRegisterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A98E196E8DBC579CAE477A90323F2AC /* SegmentPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B61550713E61519A7B9F79F8C5B995F0 /* SegmentPathManager.m */; };
 		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4DBC3E3D7C090D3113E52282C91ECD /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D031E05902EC9A7E90E624D3ADB98CA /* Target_SegmentViewHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7C0F4BCA1A189BD3F68EC54E354B9F /* Target_SegmentViewHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F8F8AA1C8A8E1029B7E14E5223FC00 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5D1DD28B0AD01439C64CBFDB080EF9 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DB7FA335E8387205949B28DE4165CCD /* UILabel+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 17924BA284197180206237AC001671CD /* UILabel+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FADD2C71BA3627CF530D9BE50144AFD /* SegmentCheckBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE9A182F1701B4BAB6E0C76F0B83BAD /* SegmentCheckBoxManager.m */; };
 		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E6C95E779996F62C3E9A65BB2D9534 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		975E808CBA08793BFEBC3CC590ED63C2 /* NSDictionary+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B388891F3CA9A857172FA1795FDF7FF /* NSDictionary+Segment.m */; };
-		978A1ACFF1763772A7954770038995C2 /* SegmentGameServiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4B7EB0C0E9C5438106807584ED3 /* SegmentGameServiceView.m */; };
 		99EFECC1032E95AF75A1DDA5E107C50B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9773D360B95BE4AC677540B875618433 /* Foundation.framework */; };
 		9B20F528DCF58380C3D01567FCBD4C70 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE4352121F464678D559B0A955515F0 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8EE1F1C8576B09827B2657C83B6E0F /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -85,47 +100,30 @@
 		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C27F40CCBC63E579B89C96803540BC /* View+MASAdditions.m */; };
 		A464F6421C23B4B9C20ADA384AD3DE47 /* CTMediator+ViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A11978AD1E94A52B830A9FD911506D /* CTMediator+ViewManager.m */; };
 		A831A0803DB2D14E28846500F9350683 /* CTMediatoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 491493F8958128B3777EC9E86E76714C /* CTMediatoKit-dummy.m */; };
-		AA53751AF36F2DA365A1AF49DF9DA024 /* SegmentFastRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E78CA58F1006FAA921C164B70A45F6 /* SegmentFastRegisterView.m */; };
 		AB1308BCF04D3D8ECD908C04D9011A77 /* SegmentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 889869FA33898BF6B4CEBDF6DA022834 /* SegmentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFB1E2BA9DCD80C443D1D09894E124B9 /* CTMediator+SegmentViewHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF3E8E8DE10FF07C8DF71E1A89A0C0 /* CTMediator+SegmentViewHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B08C4BF0AF36C4243D63176B7585687C /* CTMediator+AppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CC63684C1DEB3FBB14CEE1F668EDC4 /* CTMediator+AppStore.m */; };
 		B34AC64DD013CA0EFF20A723F87B367E /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFDA729D66E56F262B520DFC259FE9C /* CTMediator.m */; };
-		B3D603814705BA54A37C396761B0FE58 /* SegmentLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF5242BC19CD7437D01D75D7C2E954 /* SegmentLoginView.m */; };
-		B6DC802776E1D010F1848DD8B922C5EF /* SegmentCheckBoxManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E34AD663502CA980AEDBE284F78F9C0B /* SegmentCheckBoxManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE58C56563A19B0E48F27B0AFE146E3 /* MASViewConstraint.m */; };
 		B7F1C13BF877EC0389DA5A2D69A097B5 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C6A4F0A6B67F29E33BD710CCB43AA3 /* Masonry.framework */; };
 		BA8F2DDAF32D4B0DC5B7AC0079A3D6D1 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B78CC21F4D67C97BEBACDEAF569F99 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF7CAC7EE40753DAEAE801ADC11427FC /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9AF95824AB415F27284BCACE8078A1 /* CTMediator.framework */; };
-		BFC6506BB46AC103EC502FFDDBFE941C /* SegmentForgetPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 506FF130EA7E1487A4ECFE9E5B402807 /* SegmentForgetPasswordView.m */; };
 		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD1771CA5BB53E8DDBD1EF97B322508 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		CBDE8D26DA5307D188249DEB54D1DE74 /* CTMediaAFNetworkReachbilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F705A610AC853A709C57304F45CE259 /* CTMediaAFNetworkReachbilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC8F78A4E19D7ADF65D4E586D66D6BAF /* SegmentProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26069749E91235258965FD024F969D4 /* SegmentProtocolView.m */; };
-		CD1CB35F30F08672879B5475A4EEC63B /* SegmentCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 80505D3E3DFF01B89B5F680BE5DDFA4B /* SegmentCheckBoxGroup.m */; };
-		CDB1751CF53ECA48BB49BA3507B8698B /* SegmentBundlePlistManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FE34DE8E891225962643AB609CCBFB /* SegmentBundlePlistManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE02070E8A82157576D78842C29D0419 /* SegmentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF7AFD68E2088A9229A2231C5F33635 /* SegmentView-dummy.m */; };
 		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC3D4E8104C73DF83A7D965A79F332 /* UIKit.framework */; };
-		CF065DF0FDE35FEA47D2226ED7980DBA /* SegmentForgetPasswordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA27E2190930993A998EB2EE01E5258 /* SegmentForgetPasswordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF8FCA5B1E31A786335BD8D9CC0EF1D9 /* SegmentAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F86004DC04A17BDB1EA5CC79B702BE /* SegmentAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2C12CCFCF84EF7F036681A3A7ADBEA5 /* BaseSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35790A9DE21C446BD8C39CE01E0190 /* BaseSegmentView.m */; };
-		D56C8E6110D4B7D2E0478A330CA91659 /* SegmentBindPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65525369B0B6FE679F355CF050E1BBF /* SegmentBindPhoneView.m */; };
 		DE6679F49C1230421158BF96048285D1 /* CategoryMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D44EE7B941FDA11CD7E1E25B4C3323E /* CategoryMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE9BE8A5CB04979311E902A6FF2A1AD8 /* CTMediatoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49EDD4E95A2EA3F5584F1C7E8B3D051 /* CTMediatoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9773D360B95BE4AC677540B875618433 /* Foundation.framework */; };
-		E697B517931EA49C29E6110E6B8FA90E /* SegmentProtocolView.h in Headers */ = {isa = PBXBuildFile; fileRef = A316C943C70B43B0247DD9C3BD3BD9A5 /* SegmentProtocolView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8E5878647FB6D3073A04B928136DEB /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E88C9C01651AB9844A3CE8C2181E0621 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB0BC01A98AABB2CBADC4E2C4D1E93 /* CTMediator-dummy.m */; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC3F051DC7AF8412A541AFE72C94601 /* MASConstraint.m */; };
 		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E5ECA36ACC2579751028BB68519C2C95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC0E449B5319AC0CDD3E848229BC1E8F /* SegmentMainView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B4A9C41C9F14616C65A3408DC6BDE8 /* SegmentMainView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1188790D63D65690D8CE18A9E2B089B /* SegmentBindPhoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6B528FBCDA5B20FDA758A135C6D485 /* SegmentBindPhoneView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F45FA83A8A3BE00D17A89BA0471B392E /* SegmentConfigMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A56102DB187E8FC91C0FAA4551167F2 /* SegmentConfigMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F537686D8AB060FBF4A9F54304D1E9DD /* SLCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1345C42D617D10F2926DE9E330FA3998 /* SLCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8824625050396F2F4413C20C15B521B /* SegmentAvoidCrashDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DD26F6EFC38F419DD97A83AFEAD978 /* SegmentAvoidCrashDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA9D14E559BD5D59D20E29A3F296AE90 /* NSString+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C42E2F296FA11DFED86774793F35793 /* NSString+Segment.m */; };
 		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C746D6DA50CDAD49C325D4CD582CE943 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB574754BB7B14C170529727974CDB8E /* SLCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE38B69CB05F9CAE0700402A5A8FBAB0 /* SLCategory-dummy.m */; };
 		FC71D7ADC6A55EC4AC26CEF8DE9AD016 /* CTMediatoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7424F35C17848E68F34E7090C38765 /* CTMediatoKit.framework */; };
-		FDCC552419271E88FCF1E5787C4469AD /* SegmentButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A036DBD646CEF0EDEC2F4B352019672 /* SegmentButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,16 +202,48 @@
 /* Begin PBXFileReference section */
 		00952B9E4B3E507B57285181A72E8259 /* Pods-SegmentView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		040A36A857717DBFBF254A194DE9FEE9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		0663AFEA913910E3F8BB5752A9BC8CB9 /* SegmentHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentHeader.h; sourceTree = "<group>"; };
+		075B908E233244F100E8DEB8 /* Target_SegmentViewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_SegmentViewHandler.m; sourceTree = "<group>"; };
+		075B908F233244F100E8DEB8 /* Target_SegmentViewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_SegmentViewHandler.h; sourceTree = "<group>"; };
+		075B90932332453E00E8DEB8 /* SegmentCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentCheckBoxGroup.h; sourceTree = "<group>"; };
+		075B90942332453E00E8DEB8 /* SegmentTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentTextField.h; sourceTree = "<group>"; };
+		075B90952332453E00E8DEB8 /* SegmentAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentAnimationManager.h; sourceTree = "<group>"; };
+		075B90962332453E00E8DEB8 /* SegmentPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentPathManager.h; sourceTree = "<group>"; };
+		075B90972332453E00E8DEB8 /* SegmentCheckBoxManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentCheckBoxManager.h; sourceTree = "<group>"; };
+		075B90982332453E00E8DEB8 /* SegmentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentButton.m; sourceTree = "<group>"; };
+		075B90992332453E00E8DEB8 /* SegmentCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentCheckBoxGroup.m; sourceTree = "<group>"; };
+		075B909A2332453E00E8DEB8 /* SegmentAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentAnimationManager.m; sourceTree = "<group>"; };
+		075B909B2332453E00E8DEB8 /* SegmentTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentTextField.m; sourceTree = "<group>"; };
+		075B909C2332453E00E8DEB8 /* SegmentCheckBoxManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentCheckBoxManager.m; sourceTree = "<group>"; };
+		075B909D2332453E00E8DEB8 /* SegmentPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentPathManager.m; sourceTree = "<group>"; };
+		075B909E2332453E00E8DEB8 /* SegmentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentButton.h; sourceTree = "<group>"; };
+		075B90A02332453E00E8DEB8 /* SegmentConfigMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentConfigMacro.h; sourceTree = "<group>"; };
+		075B90A22332453E00E8DEB8 /* SegmentBundlePlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentBundlePlistManager.m; sourceTree = "<group>"; };
+		075B90A32332453E00E8DEB8 /* SegmentAvoidCrashDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentAvoidCrashDictionary.m; sourceTree = "<group>"; };
+		075B90A42332453E00E8DEB8 /* SegmentBundlePlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentBundlePlistManager.h; sourceTree = "<group>"; };
+		075B90A52332453E00E8DEB8 /* SegmentAvoidCrashDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentAvoidCrashDictionary.h; sourceTree = "<group>"; };
+		075B90B82332454F00E8DEB8 /* SegmentRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentRegisterView.h; sourceTree = "<group>"; };
+		075B90B92332454F00E8DEB8 /* BaseSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSegmentView.m; sourceTree = "<group>"; };
+		075B90BA2332454F00E8DEB8 /* SegmentMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentMainView.m; sourceTree = "<group>"; };
+		075B90BB2332454F00E8DEB8 /* SegmentGameServiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentGameServiceView.h; sourceTree = "<group>"; };
+		075B90BC2332454F00E8DEB8 /* SegmentForgetPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentForgetPasswordView.h; sourceTree = "<group>"; };
+		075B90BD2332454F00E8DEB8 /* SegmentFastRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentFastRegisterView.h; sourceTree = "<group>"; };
+		075B90BE2332454F00E8DEB8 /* SegmentBindPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentBindPhoneView.m; sourceTree = "<group>"; };
+		075B90BF2332454F00E8DEB8 /* SegmentProtocolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentProtocolView.h; sourceTree = "<group>"; };
+		075B90C02332454F00E8DEB8 /* SegmentHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentHeader.h; sourceTree = "<group>"; };
+		075B90C12332454F00E8DEB8 /* SegmentRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentRegisterView.m; sourceTree = "<group>"; };
+		075B90C22332454F00E8DEB8 /* SegmentFastRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentFastRegisterView.m; sourceTree = "<group>"; };
+		075B90C32332454F00E8DEB8 /* SegmentForgetPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentForgetPasswordView.m; sourceTree = "<group>"; };
+		075B90C42332454F00E8DEB8 /* SegmentGameServiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentGameServiceView.m; sourceTree = "<group>"; };
+		075B90C52332454F00E8DEB8 /* SegmentMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentMainView.h; sourceTree = "<group>"; };
+		075B90C62332454F00E8DEB8 /* BaseSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSegmentView.h; sourceTree = "<group>"; };
+		075B90C72332454F00E8DEB8 /* SegmentProtocolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentProtocolView.m; sourceTree = "<group>"; };
+		075B90C82332454F00E8DEB8 /* SegmentBindPhoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentBindPhoneView.h; sourceTree = "<group>"; };
 		12B1BD43A63759AD123E46B420C5AE6A /* CTMediator+RequestAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+RequestAPI.h"; path = "CTMediatoKit/Classes/CTMediator+RequestAPI.h"; sourceTree = "<group>"; };
 		1345C42D617D10F2926DE9E330FA3998 /* SLCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLCategory-umbrella.h"; sourceTree = "<group>"; };
 		17924BA284197180206237AC001671CD /* UILabel+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Segment.h"; path = "SLCategory/Classes/UILabel+Segment.h"; sourceTree = "<group>"; };
 		17F1C55190EC96B4BF70630ADAC2B589 /* CTMediator+RequestAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+RequestAPI.m"; path = "CTMediatoKit/Classes/CTMediator+RequestAPI.m"; sourceTree = "<group>"; };
 		19E471053248A0A4610299E86BE032BA /* Pods-SegmentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmentView_Example-umbrella.h"; sourceTree = "<group>"; };
-		19FD78CFB78324BD80B2F90A0AA458F5 /* SegmentAvoidCrashDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentAvoidCrashDictionary.m; sourceTree = "<group>"; };
-		1C746FDE146E003C624F2302E99036D9 /* SegmentButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentButton.m; sourceTree = "<group>"; };
-		1D35790A9DE21C446BD8C39CE01E0190 /* BaseSegmentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseSegmentView.m; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AD3FECC2644CCBCBC11879654E6F45 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		25EB0BC01A98AABB2CBADC4E2C4D1E93 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		272D73DB79D60EDE7E64141B0EF1E8E3 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
@@ -223,39 +253,28 @@
 		2F8EE1F1C8576B09827B2657C83B6E0F /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		2FF7AFD68E2088A9229A2231C5F33635 /* SegmentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SegmentView-dummy.m"; sourceTree = "<group>"; };
 		33CA5345541B710D88AF22F0D492AE3E /* Pods-SegmentView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentView_Example-Info.plist"; sourceTree = "<group>"; };
-		36DD26F6EFC38F419DD97A83AFEAD978 /* SegmentAvoidCrashDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentAvoidCrashDictionary.h; sourceTree = "<group>"; };
 		381DFAF011D64E6BF0AA91A324E021A6 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		387C3C0AD3D35C10F979FD31D68C2431 /* SegmentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SegmentView.modulemap; sourceTree = "<group>"; };
 		3C0F13FE72FC5FCA65AC9E9174B28168 /* SLCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLCategory.xcconfig; sourceTree = "<group>"; };
 		3C42E2F296FA11DFED86774793F35793 /* NSString+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Segment.m"; path = "SLCategory/Classes/NSString+Segment.m"; sourceTree = "<group>"; };
-		3E5B1FF34D570C8C0E131420A38C57CE /* SegmentRegisterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentRegisterView.h; sourceTree = "<group>"; };
-		3FFCF4660378EBA07E65DBF97A510CD8 /* SegmentFastRegisterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentFastRegisterView.h; sourceTree = "<group>"; };
 		4253993D34C2FA8A9D1DF261569E6F59 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		4745B141937506C4B2D2EAF6C50EB4F0 /* SegmentBundlePlistManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentBundlePlistManager.m; sourceTree = "<group>"; };
 		48693E30D55145E38D131F281771B9D7 /* UITextField+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Segment.m"; path = "SLCategory/Classes/UITextField+Segment.m"; sourceTree = "<group>"; };
-		48848DC59A22D182DB5B011272A720F6 /* SegmentRegisterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentRegisterView.m; sourceTree = "<group>"; };
 		491493F8958128B3777EC9E86E76714C /* CTMediatoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediatoKit-dummy.m"; sourceTree = "<group>"; };
-		4A036DBD646CEF0EDEC2F4B352019672 /* SegmentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentButton.h; sourceTree = "<group>"; };
-		4CA27E2190930993A998EB2EE01E5258 /* SegmentForgetPasswordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentForgetPasswordView.h; sourceTree = "<group>"; };
 		4D44EE7B941FDA11CD7E1E25B4C3323E /* CategoryMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CategoryMacro.h; path = SLCategory/Classes/CategoryMacro.h; sourceTree = "<group>"; };
 		4F665B9A3B448459C08929E2AC9C8B22 /* SLCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		505C4572E7855313D342DBFF8A2BD992 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		506FF130EA7E1487A4ECFE9E5B402807 /* SegmentForgetPasswordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentForgetPasswordView.m; sourceTree = "<group>"; };
 		51542619E408253CD6FCBA6386795708 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		56A11978AD1E94A52B830A9FD911506D /* CTMediator+ViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+ViewManager.m"; path = "CTMediatoKit/Classes/CTMediator+ViewManager.m"; sourceTree = "<group>"; };
 		586EC54584881EE83C3F92033C3F3F9F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		5B0417E82BE0D7BB25765362256B3085 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5B0417E82BE0D7BB25765362256B3085 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5D5D1DD28B0AD01439C64CBFDB080EF9 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		5D9AF95824AB415F27284BCACE8078A1 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2E230AB98C549BA6DD72EFC152B50 /* Pods-SegmentView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmentView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		604EB88F93A837C81AC8835DA29C62E5 /* UIView+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Segment.m"; path = "SLCategory/Classes/UIView+Segment.m"; sourceTree = "<group>"; };
-		65FE34DE8E891225962643AB609CCBFB /* SegmentBundlePlistManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentBundlePlistManager.h; sourceTree = "<group>"; };
 		65FF3E8E8DE10FF07C8DF71E1A89A0C0 /* CTMediator+SegmentViewHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+SegmentViewHud.h"; path = "CTMediatoKit/Classes/CTMediator+SegmentViewHud.h"; sourceTree = "<group>"; };
-		668848BBDE132F00FC8E7608057F5341 /* CTMediatoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediatoKit.framework; path = CTMediatoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68C6D4B7EB0C0E9C5438106807584ED3 /* SegmentGameServiceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentGameServiceView.m; sourceTree = "<group>"; };
-		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69F86004DC04A17BDB1EA5CC79B702BE /* SegmentAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentAnimationManager.h; sourceTree = "<group>"; };
-		6A5AA81BFB07A050B9CBAD8318D8058D /* SegmentView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SegmentView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		668848BBDE132F00FC8E7608057F5341 /* CTMediatoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediatoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5AA81BFB07A050B9CBAD8318D8058D /* SegmentView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SegmentView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C4DBC3E3D7C090D3113E52282C91ECD /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		6D2010EA219410B32AD7A5759C0978B6 /* Pods-SegmentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6D3CBD5D1615EA84130BF16830BF681E /* NSString+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Segment.h"; path = "SLCategory/Classes/NSString+Segment.h"; sourceTree = "<group>"; };
@@ -263,52 +282,34 @@
 		6F705A610AC853A709C57304F45CE259 /* CTMediaAFNetworkReachbilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediaAFNetworkReachbilityManager.h; path = CTMediatoKit/Classes/CTMediaAFNetworkReachbilityManager.h; sourceTree = "<group>"; };
 		70620B3FE74D789BE4420105C4466F60 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		71DD1E8751769F0D40C099EF90A1A04B /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
-		71E78CA58F1006FAA921C164B70A45F6 /* SegmentFastRegisterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentFastRegisterView.m; sourceTree = "<group>"; };
-		75B4A9C41C9F14616C65A3408DC6BDE8 /* SegmentMainView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentMainView.h; sourceTree = "<group>"; };
 		75CC63684C1DEB3FBB14CEE1F668EDC4 /* CTMediator+AppStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+AppStore.m"; path = "CTMediatoKit/Classes/CTMediator+AppStore.m"; sourceTree = "<group>"; };
-		78C5087C25CB1193DD7796A108EFD1CC /* SegmentTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentTextField.h; sourceTree = "<group>"; };
 		799B7D634E05D039CDC1EBCAB765795B /* CTMediatoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediatoKit-Info.plist"; sourceTree = "<group>"; };
-		79A42C0A6FA140886115CEB6AFAEA246 /* SegmentMainView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentMainView.m; sourceTree = "<group>"; };
-		7A56102DB187E8FC91C0FAA4551167F2 /* SegmentConfigMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentConfigMacro.h; sourceTree = "<group>"; };
 		7B388891F3CA9A857172FA1795FDF7FF /* NSDictionary+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Segment.m"; path = "SLCategory/Classes/NSDictionary+Segment.m"; sourceTree = "<group>"; };
-		7F7C0F4BCA1A189BD3F68EC54E354B9F /* Target_SegmentViewHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_SegmentViewHandler.h; sourceTree = "<group>"; };
 		80308070A18A630EB58136AFDEC9E75D /* NSData+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Segment.m"; path = "SLCategory/Classes/NSData+Segment.m"; sourceTree = "<group>"; };
-		80505D3E3DFF01B89B5F680BE5DDFA4B /* SegmentCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentCheckBoxGroup.m; sourceTree = "<group>"; };
 		811DE9A85845046938428E807145AB8A /* Pods-SegmentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		81225ED7517147ADAB7DE6239425288A /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		8269C5679DD57092376B11D4F98AD071 /* BaseSegmentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseSegmentView.h; sourceTree = "<group>"; };
-		82C9EE6F98F9F13A324DF53B7E17A23C /* SegmentGameServiceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentGameServiceView.h; sourceTree = "<group>"; };
 		86BABD9F84355FFEB7E6102ED0782A47 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		875591FE714760C4D59793ABDF8C5485 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		889869FA33898BF6B4CEBDF6DA022834 /* SegmentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegmentView-umbrella.h"; sourceTree = "<group>"; };
 		89E6C95E779996F62C3E9A65BB2D9534 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		8AE45FFF07C14C786468DA336258D0D2 /* SegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SegmentView.framework; path = SegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE45FFF07C14C786468DA336258D0D2 /* SegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F8F8AA1C8A8E1029B7E14E5223FC00 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		92A40E33DF16079F36A955FEC72C6465 /* CTMediator+AppStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+AppStore.h"; path = "CTMediatoKit/Classes/CTMediator+AppStore.h"; sourceTree = "<group>"; };
 		9678B5C383DDC9582955443DB919FBEF /* SegmentView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SegmentView-Info.plist"; sourceTree = "<group>"; };
 		9773D360B95BE4AC677540B875618433 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		98440B983931A36188B32302D918FD9B /* CTMediaAFNetworkReachbilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediaAFNetworkReachbilityManager.m; path = CTMediatoKit/Classes/CTMediaAFNetworkReachbilityManager.m; sourceTree = "<group>"; };
-		9CE9A182F1701B4BAB6E0C76F0B83BAD /* SegmentCheckBoxManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentCheckBoxManager.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ED4B010C3A6F4E9B392C244A9B93EDD /* UIImageView+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Segment.h"; path = "SLCategory/Classes/UIImageView+Segment.h"; sourceTree = "<group>"; };
 		9EE4352121F464678D559B0A955515F0 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		9EFDA729D66E56F262B520DFC259FE9C /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		9F58776BC87A7D005B6AD028C651C5D2 /* CTMediator+ViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+ViewManager.h"; path = "CTMediatoKit/Classes/CTMediator+ViewManager.h"; sourceTree = "<group>"; };
-		A0BEFC78724D0BBEA8726FEA09DD6AB8 /* SegmentPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentPathManager.h; sourceTree = "<group>"; };
 		A2EB3EE178E6B00D253541F0D9B10E81 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		A316C943C70B43B0247DD9C3BD3BD9A5 /* SegmentProtocolView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentProtocolView.h; sourceTree = "<group>"; };
 		A444FF49739411ED2BA630E3839AF72D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		A55F145ADAE03970B65A6A0D5D8B62B6 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		A65525369B0B6FE679F355CF050E1BBF /* SegmentBindPhoneView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentBindPhoneView.m; sourceTree = "<group>"; };
 		AA3899379088A0A3C14DC9F1656C6A56 /* CTMediatoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediatoKit.modulemap; sourceTree = "<group>"; };
-		ABCD7168AF8181053E319E792716A9AA /* SegmentLoginView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentLoginView.h; sourceTree = "<group>"; };
-		ADD01C0F48A4751CBEA3EE9D652B01D5 /* SLCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SLCategory.framework; path = SLCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE1AF554A57E8BD5E1FEA7C2A1EDABE4 /* Target_SegmentViewHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_SegmentViewHandler.m; sourceTree = "<group>"; };
+		ADD01C0F48A4751CBEA3EE9D652B01D5 /* SLCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C6A4F0A6B67F29E33BD710CCB43AA3 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24FD000F3B9E8A41CE82C5DD2AE1D55 /* UILabel+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Segment.m"; path = "SLCategory/Classes/UILabel+Segment.m"; sourceTree = "<group>"; };
-		B26069749E91235258965FD024F969D4 /* SegmentProtocolView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentProtocolView.m; sourceTree = "<group>"; };
-		B61550713E61519A7B9F79F8C5B995F0 /* SegmentPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentPathManager.m; sourceTree = "<group>"; };
-		BAAF5242BC19CD7437D01D75D7C2E954 /* SegmentLoginView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentLoginView.m; sourceTree = "<group>"; };
 		BB19B02121E392041A5FE40847970DCD /* UITextField+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Segment.h"; path = "SLCategory/Classes/UITextField+Segment.h"; sourceTree = "<group>"; };
 		BE7F4E945F60BC3FFD1085619B8B03F7 /* CTMediator+Config.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+Config.m"; path = "CTMediatoKit/Classes/CTMediator+Config.m"; sourceTree = "<group>"; };
 		C09CA90F1BCB7FA0BBCF43046DC458C0 /* CTMediator+Config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+Config.h"; path = "CTMediatoKit/Classes/CTMediator+Config.h"; sourceTree = "<group>"; };
@@ -319,13 +320,12 @@
 		CC55F31B126A23CD26BD0A11952FDB44 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
 		CD7424F35C17848E68F34E7090C38765 /* CTMediatoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediatoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD2A274022A804D2F4A98EE4F3D43D7 /* SegmentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegmentView-prefix.pch"; sourceTree = "<group>"; };
-		CDF3F03066C31B7F2C3047CBD1F0720F /* SegmentTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentTextField.m; sourceTree = "<group>"; };
 		CEC3F051DC7AF8412A541AFE72C94601 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		CED2423C3DEB759B5D8F6231EF9E6BEE /* CTMediatoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediatoKit-prefix.pch"; sourceTree = "<group>"; };
 		CFD3D69C94564C545A684B52F01C7605 /* CTMediatoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediatoKit.xcconfig; sourceTree = "<group>"; };
 		D0F2618FFECC312D102BEA4759C43CDB /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		D40AA9C03A040D41D80EF4DC28D682EF /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		D8744705D0DB92A0AD753868E5FB2255 /* Pods_SegmentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SegmentView_Example.framework; path = "Pods-SegmentView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8744705D0DB92A0AD753868E5FB2255 /* Pods_SegmentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADF58514F06D0E6103E8E2B5365E16E /* CategoryHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CategoryHeader.h; path = SLCategory/Classes/CategoryHeader.h; sourceTree = "<group>"; };
 		DBE58C56563A19B0E48F27B0AFE146E3 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		DD8C80D8521420ED26D8C01677403A73 /* NSDictionary+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Segment.h"; path = "SLCategory/Classes/NSDictionary+Segment.h"; sourceTree = "<group>"; };
@@ -336,20 +336,16 @@
 		DFD6996E7379FEF104F3A044307FC8FE /* Pods-SegmentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmentView_Example-dummy.m"; sourceTree = "<group>"; };
 		E0B78CC21F4D67C97BEBACDEAF569F99 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
 		E252C917BD4F5E6ABF8F7A1DB7D86E79 /* SLCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SLCategory-Info.plist"; sourceTree = "<group>"; };
-		E30799B0F196A47BCA0A385F0E8E3117 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E34AD663502CA980AEDBE284F78F9C0B /* SegmentCheckBoxManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentCheckBoxManager.h; sourceTree = "<group>"; };
+		E30799B0F196A47BCA0A385F0E8E3117 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E366B23003257FA16DC1D8B0BEFE0CE2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		E422F7D60C1CD6BE6127B955AD6A96D0 /* SegmentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SegmentView.xcconfig; sourceTree = "<group>"; };
 		E4ABE4C4A3E9D4CF3AFFD6CEA0DC7314 /* CTMediator+SegmentViewHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+SegmentViewHud.m"; path = "CTMediatoKit/Classes/CTMediator+SegmentViewHud.m"; sourceTree = "<group>"; };
 		E573B4B46B17C6896272F18F1898872F /* UIView+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Segment.h"; path = "SLCategory/Classes/UIView+Segment.h"; sourceTree = "<group>"; };
 		E5ECA36ACC2579751028BB68519C2C95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		E8A8A530F6B0DBA9B4D416719CFAA287 /* SegmentCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentCheckBoxGroup.h; sourceTree = "<group>"; };
 		EABC3D4E8104C73DF83A7D965A79F332 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EDD1771CA5BB53E8DDBD1EF97B322508 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		F3E1E6B5C003792460F6F83832ADD616 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		F49EDD4E95A2EA3F5584F1C7E8B3D051 /* CTMediatoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediatoKit-umbrella.h"; sourceTree = "<group>"; };
-		F98AE561FF2B4228BC075D15675FA0E0 /* SegmentAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentAnimationManager.m; sourceTree = "<group>"; };
-		FA6B528FBCDA5B20FDA758A135C6D485 /* SegmentBindPhoneView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentBindPhoneView.h; sourceTree = "<group>"; };
 		FD14EB5B94F574DA3389461A29A5C4A1 /* Pods-SegmentView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -412,47 +408,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0250A029370B37B7E308F0D2369D7CF1 /* Register */ = {
-			isa = PBXGroup;
-			children = (
-				3FFCF4660378EBA07E65DBF97A510CD8 /* SegmentFastRegisterView.h */,
-				71E78CA58F1006FAA921C164B70A45F6 /* SegmentFastRegisterView.m */,
-				3E5B1FF34D570C8C0E131420A38C57CE /* SegmentRegisterView.h */,
-				48848DC59A22D182DB5B011272A720F6 /* SegmentRegisterView.m */,
-			);
-			name = Register;
-			path = SegmentView/Classes/Register;
-			sourceTree = "<group>";
-		};
 		0366FA421457F52CA0E048D889F8AC91 /* SegmentView */ = {
 			isa = PBXGroup;
 			children = (
-				CF9150B28FE954B898A871B2ABE3B582 /* Base */,
-				CE9D830328E1A11F5EE41A68C9795E66 /* BindPhone */,
-				D0A0C27D0FB84DF1004D673C90BF6511 /* CustomService */,
-				B82D7AC5E390BE933F110E51B6CB665E /* Lgoin */,
-				9BF7CA1FD48E91CD743F1214984312C4 /* Main */,
-				6F6BB57FACB20583670050207504F7AD /* PasswordView */,
+				075B90B72332454F00E8DEB8 /* View */,
+				075B909F2332453E00E8DEB8 /* Macro */,
+				075B90A12332453E00E8DEB8 /* Tools */,
+				075B90922332453E00E8DEB8 /* Widget */,
+				075B908D233244F100E8DEB8 /* Target */,
 				736A87359582B4F7E6EB5E9262757BB2 /* Pod */,
-				77205C9DFB8A5FFEBE4F38AC3AC29534 /* ProtocolView */,
-				0250A029370B37B7E308F0D2369D7CF1 /* Register */,
 				DDEA68A263ECDC417987FEB7E02C629F /* Support Files */,
-				06D31B00C4DDEB48B17E83C0EE30F269 /* Target */,
-				2E76F7B2B8D6648842CB03694E49D563 /* Tools */,
-				BAE996D4D6D7464797C61FB62F586179 /* Widget */,
 			);
 			name = SegmentView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		06D31B00C4DDEB48B17E83C0EE30F269 /* Target */ = {
+		075B908D233244F100E8DEB8 /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				7F7C0F4BCA1A189BD3F68EC54E354B9F /* Target_SegmentViewHandler.h */,
-				AE1AF554A57E8BD5E1FEA7C2A1EDABE4 /* Target_SegmentViewHandler.m */,
+				075B908E233244F100E8DEB8 /* Target_SegmentViewHandler.m */,
+				075B908F233244F100E8DEB8 /* Target_SegmentViewHandler.h */,
 			);
 			name = Target;
-			path = SegmentView/Classes/Target;
+			path = SegmentView/Target;
+			sourceTree = "<group>";
+		};
+		075B90922332453E00E8DEB8 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				075B90932332453E00E8DEB8 /* SegmentCheckBoxGroup.h */,
+				075B90942332453E00E8DEB8 /* SegmentTextField.h */,
+				075B90952332453E00E8DEB8 /* SegmentAnimationManager.h */,
+				075B90962332453E00E8DEB8 /* SegmentPathManager.h */,
+				075B90972332453E00E8DEB8 /* SegmentCheckBoxManager.h */,
+				075B90982332453E00E8DEB8 /* SegmentButton.m */,
+				075B90992332453E00E8DEB8 /* SegmentCheckBoxGroup.m */,
+				075B909A2332453E00E8DEB8 /* SegmentAnimationManager.m */,
+				075B909B2332453E00E8DEB8 /* SegmentTextField.m */,
+				075B909C2332453E00E8DEB8 /* SegmentCheckBoxManager.m */,
+				075B909D2332453E00E8DEB8 /* SegmentPathManager.m */,
+				075B909E2332453E00E8DEB8 /* SegmentButton.h */,
+			);
+			name = Widget;
+			path = SegmentView/Widget;
+			sourceTree = "<group>";
+		};
+		075B909F2332453E00E8DEB8 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				075B90A02332453E00E8DEB8 /* SegmentConfigMacro.h */,
+			);
+			name = Macro;
+			path = SegmentView/Macro;
+			sourceTree = "<group>";
+		};
+		075B90A12332453E00E8DEB8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				075B90A22332453E00E8DEB8 /* SegmentBundlePlistManager.m */,
+				075B90A32332453E00E8DEB8 /* SegmentAvoidCrashDictionary.m */,
+				075B90A42332453E00E8DEB8 /* SegmentBundlePlistManager.h */,
+				075B90A52332453E00E8DEB8 /* SegmentAvoidCrashDictionary.h */,
+			);
+			name = Tools;
+			path = SegmentView/Tools;
+			sourceTree = "<group>";
+		};
+		075B90B72332454F00E8DEB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				075B90B82332454F00E8DEB8 /* SegmentRegisterView.h */,
+				075B90B92332454F00E8DEB8 /* BaseSegmentView.m */,
+				075B90BA2332454F00E8DEB8 /* SegmentMainView.m */,
+				075B90BB2332454F00E8DEB8 /* SegmentGameServiceView.h */,
+				075B90BC2332454F00E8DEB8 /* SegmentForgetPasswordView.h */,
+				075B90BD2332454F00E8DEB8 /* SegmentFastRegisterView.h */,
+				075B90BE2332454F00E8DEB8 /* SegmentBindPhoneView.m */,
+				075B90BF2332454F00E8DEB8 /* SegmentProtocolView.h */,
+				075B90C02332454F00E8DEB8 /* SegmentHeader.h */,
+				075B90C12332454F00E8DEB8 /* SegmentRegisterView.m */,
+				075B90C22332454F00E8DEB8 /* SegmentFastRegisterView.m */,
+				075B90C32332454F00E8DEB8 /* SegmentForgetPasswordView.m */,
+				075B90C42332454F00E8DEB8 /* SegmentGameServiceView.m */,
+				075B90C52332454F00E8DEB8 /* SegmentMainView.h */,
+				075B90C62332454F00E8DEB8 /* BaseSegmentView.h */,
+				075B90C72332454F00E8DEB8 /* SegmentProtocolView.m */,
+				075B90C82332454F00E8DEB8 /* SegmentBindPhoneView.h */,
+			);
+			name = View;
+			path = SegmentView/View;
 			sourceTree = "<group>";
 		};
 		1302E46FB4F0FE828437DCF425FB1794 /* SLCategory */ = {
@@ -476,7 +520,6 @@
 				604EB88F93A837C81AC8835DA29C62E5 /* UIView+Segment.m */,
 				1530DB52E7D89275685907B37E8A5DA8 /* Support Files */,
 			);
-			name = SLCategory;
 			path = SLCategory;
 			sourceTree = "<group>";
 		};
@@ -520,28 +563,6 @@
 			path = "Target Support Files/Pods-SegmentView_Example";
 			sourceTree = "<group>";
 		};
-		2E76F7B2B8D6648842CB03694E49D563 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				36DD26F6EFC38F419DD97A83AFEAD978 /* SegmentAvoidCrashDictionary.h */,
-				19FD78CFB78324BD80B2F90A0AA458F5 /* SegmentAvoidCrashDictionary.m */,
-				65FE34DE8E891225962643AB609CCBFB /* SegmentBundlePlistManager.h */,
-				4745B141937506C4B2D2EAF6C50EB4F0 /* SegmentBundlePlistManager.m */,
-			);
-			name = Tools;
-			path = SegmentView/Classes/Tools;
-			sourceTree = "<group>";
-		};
-		6F6BB57FACB20583670050207504F7AD /* PasswordView */ = {
-			isa = PBXGroup;
-			children = (
-				4CA27E2190930993A998EB2EE01E5258 /* SegmentForgetPasswordView.h */,
-				506FF130EA7E1487A4ECFE9E5B402807 /* SegmentForgetPasswordView.m */,
-			);
-			name = PasswordView;
-			path = SegmentView/Classes/PasswordView;
-			sourceTree = "<group>";
-		};
 		736A87359582B4F7E6EB5E9262757BB2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -566,32 +587,12 @@
 			path = "../Target Support Files/CTMediator";
 			sourceTree = "<group>";
 		};
-		77205C9DFB8A5FFEBE4F38AC3AC29534 /* ProtocolView */ = {
-			isa = PBXGroup;
-			children = (
-				A316C943C70B43B0247DD9C3BD3BD9A5 /* SegmentProtocolView.h */,
-				B26069749E91235258965FD024F969D4 /* SegmentProtocolView.m */,
-			);
-			name = ProtocolView;
-			path = SegmentView/Classes/ProtocolView;
-			sourceTree = "<group>";
-		};
 		7A595375B3C1B93383C7A849C5C7FB11 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				0366FA421457F52CA0E048D889F8AC91 /* SegmentView */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9BF7CA1FD48E91CD743F1214984312C4 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				75B4A9C41C9F14616C65A3408DC6BDE8 /* SegmentMainView.h */,
-				79A42C0A6FA140886115CEB6AFAEA246 /* SegmentMainView.m */,
-			);
-			name = Main;
-			path = SegmentView/Classes/Main;
 			sourceTree = "<group>";
 		};
 		9EA816E35862CA9AC5D8A4347EC1E6A1 /* Support Files */ = {
@@ -615,7 +616,6 @@
 				9EFDA729D66E56F262B520DFC259FE9C /* CTMediator.m */,
 				757971B1CE78F39C54D6582C582E11A0 /* Support Files */,
 			);
-			name = CTMediator;
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
@@ -631,52 +631,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B82D7AC5E390BE933F110E51B6CB665E /* Lgoin */ = {
-			isa = PBXGroup;
-			children = (
-				ABCD7168AF8181053E319E792716A9AA /* SegmentLoginView.h */,
-				BAAF5242BC19CD7437D01D75D7C2E954 /* SegmentLoginView.m */,
-			);
-			name = Lgoin;
-			path = SegmentView/Classes/Lgoin;
-			sourceTree = "<group>";
-		};
-		BAE996D4D6D7464797C61FB62F586179 /* Widget */ = {
-			isa = PBXGroup;
-			children = (
-				69F86004DC04A17BDB1EA5CC79B702BE /* SegmentAnimationManager.h */,
-				F98AE561FF2B4228BC075D15675FA0E0 /* SegmentAnimationManager.m */,
-				4A036DBD646CEF0EDEC2F4B352019672 /* SegmentButton.h */,
-				1C746FDE146E003C624F2302E99036D9 /* SegmentButton.m */,
-				E8A8A530F6B0DBA9B4D416719CFAA287 /* SegmentCheckBoxGroup.h */,
-				80505D3E3DFF01B89B5F680BE5DDFA4B /* SegmentCheckBoxGroup.m */,
-				E34AD663502CA980AEDBE284F78F9C0B /* SegmentCheckBoxManager.h */,
-				9CE9A182F1701B4BAB6E0C76F0B83BAD /* SegmentCheckBoxManager.m */,
-				A0BEFC78724D0BBEA8726FEA09DD6AB8 /* SegmentPathManager.h */,
-				B61550713E61519A7B9F79F8C5B995F0 /* SegmentPathManager.m */,
-				78C5087C25CB1193DD7796A108EFD1CC /* SegmentTextField.h */,
-				CDF3F03066C31B7F2C3047CBD1F0720F /* SegmentTextField.m */,
-			);
-			name = Widget;
-			path = SegmentView/Classes/Widget;
-			sourceTree = "<group>";
-		};
 		BF9701F2EC437211D5EFEC30B0AA8A53 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				20F74ABAE0EF7474C5891E1AF1DE3EED /* Pods-SegmentView_Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CE9D830328E1A11F5EE41A68C9795E66 /* BindPhone */ = {
-			isa = PBXGroup;
-			children = (
-				FA6B528FBCDA5B20FDA758A135C6D485 /* SegmentBindPhoneView.h */,
-				A65525369B0B6FE679F355CF050E1BBF /* SegmentBindPhoneView.m */,
-			);
-			name = BindPhone;
-			path = SegmentView/Classes/BindPhone;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -689,28 +649,6 @@
 				F5A1A49AF323163E4389DDD813F9E09D /* Products */,
 				BF9701F2EC437211D5EFEC30B0AA8A53 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF9150B28FE954B898A871B2ABE3B582 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				8269C5679DD57092376B11D4F98AD071 /* BaseSegmentView.h */,
-				1D35790A9DE21C446BD8C39CE01E0190 /* BaseSegmentView.m */,
-				7A56102DB187E8FC91C0FAA4551167F2 /* SegmentConfigMacro.h */,
-				0663AFEA913910E3F8BB5752A9BC8CB9 /* SegmentHeader.h */,
-			);
-			name = Base;
-			path = SegmentView/Classes/Base;
-			sourceTree = "<group>";
-		};
-		D0A0C27D0FB84DF1004D673C90BF6511 /* CustomService */ = {
-			isa = PBXGroup;
-			children = (
-				82C9EE6F98F9F13A324DF53B7E17A23C /* SegmentGameServiceView.h */,
-				68C6D4B7EB0C0E9C5438106807584ED3 /* SegmentGameServiceView.m */,
-			);
-			name = CustomService;
-			path = SegmentView/Classes/CustomService;
 			sourceTree = "<group>";
 		};
 		D0BB93986B3571D5A582A23A5BEADA8C /* Masonry */ = {
@@ -743,7 +681,6 @@
 				381DFAF011D64E6BF0AA91A324E021A6 /* ViewController+MASAdditions.m */,
 				9EA816E35862CA9AC5D8A4347EC1E6A1 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -804,7 +741,6 @@
 				CA5D61E492DA2EB65A2B6EA7163A332B /* CTMediatorHeader.h */,
 				DB3DFBA8E1CCA7855BD0B0018B498322 /* Support Files */,
 			);
-			name = CTMediatoKit;
 			path = CTMediatoKit;
 			sourceTree = "<group>";
 		};
@@ -883,27 +819,26 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79860AB3D23277F79474634139B84054 /* BaseSegmentView.h in Headers */,
-				CF8FCA5B1E31A786335BD8D9CC0EF1D9 /* SegmentAnimationManager.h in Headers */,
-				F8824625050396F2F4413C20C15B521B /* SegmentAvoidCrashDictionary.h in Headers */,
-				F1188790D63D65690D8CE18A9E2B089B /* SegmentBindPhoneView.h in Headers */,
-				CDB1751CF53ECA48BB49BA3507B8698B /* SegmentBundlePlistManager.h in Headers */,
-				FDCC552419271E88FCF1E5787C4469AD /* SegmentButton.h in Headers */,
-				27358C3E4109849022A698D30EE0CE27 /* SegmentCheckBoxGroup.h in Headers */,
-				B6DC802776E1D010F1848DD8B922C5EF /* SegmentCheckBoxManager.h in Headers */,
-				F45FA83A8A3BE00D17A89BA0471B392E /* SegmentConfigMacro.h in Headers */,
-				647B0501619234F93D872C2952CCA458 /* SegmentFastRegisterView.h in Headers */,
-				CF065DF0FDE35FEA47D2226ED7980DBA /* SegmentForgetPasswordView.h in Headers */,
-				0882C20662223FE58930E06E0C32436D /* SegmentGameServiceView.h in Headers */,
-				54886C6D3986476FB12332516D3212A5 /* SegmentHeader.h in Headers */,
-				1DF7273DDFC134C0167842D0614FCE19 /* SegmentLoginView.h in Headers */,
-				EC0E449B5319AC0CDD3E848229BC1E8F /* SegmentMainView.h in Headers */,
-				24AC9D42FA2C47C56A83AF998B5B6766 /* SegmentPathManager.h in Headers */,
-				E697B517931EA49C29E6110E6B8FA90E /* SegmentProtocolView.h in Headers */,
-				8A8ACBF44829C5F0A139B7EFDFB38E28 /* SegmentRegisterView.h in Headers */,
-				66E67BA9B536E3E0BF1C5504830C98E6 /* SegmentTextField.h in Headers */,
+				075B90AA2332453E00E8DEB8 /* SegmentCheckBoxManager.h in Headers */,
+				075B90D92332455000E8DEB8 /* SegmentBindPhoneView.h in Headers */,
+				075B90D72332455000E8DEB8 /* BaseSegmentView.h in Headers */,
+				075B90A82332453E00E8DEB8 /* SegmentAnimationManager.h in Headers */,
+				075B90CE2332455000E8DEB8 /* SegmentFastRegisterView.h in Headers */,
+				075B90C92332454F00E8DEB8 /* SegmentRegisterView.h in Headers */,
+				075B90D62332455000E8DEB8 /* SegmentMainView.h in Headers */,
+				075B90B22332453E00E8DEB8 /* SegmentConfigMacro.h in Headers */,
+				075B90B52332453E00E8DEB8 /* SegmentBundlePlistManager.h in Headers */,
+				075B90A62332453E00E8DEB8 /* SegmentCheckBoxGroup.h in Headers */,
+				075B90CC2332455000E8DEB8 /* SegmentGameServiceView.h in Headers */,
+				075B90B62332453E00E8DEB8 /* SegmentAvoidCrashDictionary.h in Headers */,
+				075B9091233244F100E8DEB8 /* Target_SegmentViewHandler.h in Headers */,
+				075B90CD2332455000E8DEB8 /* SegmentForgetPasswordView.h in Headers */,
+				075B90D02332455000E8DEB8 /* SegmentProtocolView.h in Headers */,
+				075B90B12332453E00E8DEB8 /* SegmentButton.h in Headers */,
+				075B90D12332455000E8DEB8 /* SegmentHeader.h in Headers */,
+				075B90A92332453E00E8DEB8 /* SegmentPathManager.h in Headers */,
+				075B90A72332453E00E8DEB8 /* SegmentTextField.h in Headers */,
 				AB1308BCF04D3D8ECD908C04D9011A77 /* SegmentView-umbrella.h in Headers */,
-				8D031E05902EC9A7E90E624D3ADB98CA /* Target_SegmentViewHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1190,25 +1125,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C12CCFCF84EF7F036681A3A7ADBEA5 /* BaseSegmentView.m in Sources */,
-				06FB563C7337E9E79ED678D183E10BC8 /* SegmentAnimationManager.m in Sources */,
-				41AC4BB0DF2BC625476A42177AC67B34 /* SegmentAvoidCrashDictionary.m in Sources */,
-				D56C8E6110D4B7D2E0478A330CA91659 /* SegmentBindPhoneView.m in Sources */,
-				3451065EA681452A8B6A6EEB171E3F36 /* SegmentBundlePlistManager.m in Sources */,
-				6CDE212884687D2C8BD4CAA8E534E0BE /* SegmentButton.m in Sources */,
-				CD1CB35F30F08672879B5475A4EEC63B /* SegmentCheckBoxGroup.m in Sources */,
-				8FADD2C71BA3627CF530D9BE50144AFD /* SegmentCheckBoxManager.m in Sources */,
-				AA53751AF36F2DA365A1AF49DF9DA024 /* SegmentFastRegisterView.m in Sources */,
-				BFC6506BB46AC103EC502FFDDBFE941C /* SegmentForgetPasswordView.m in Sources */,
-				978A1ACFF1763772A7954770038995C2 /* SegmentGameServiceView.m in Sources */,
-				B3D603814705BA54A37C396761B0FE58 /* SegmentLoginView.m in Sources */,
-				2FAFCB5FCC18F35F8698F852D021D8B1 /* SegmentMainView.m in Sources */,
-				8A98E196E8DBC579CAE477A90323F2AC /* SegmentPathManager.m in Sources */,
-				CC8F78A4E19D7ADF65D4E586D66D6BAF /* SegmentProtocolView.m in Sources */,
-				257FA4C5BDC701E42893B946F0CB6DBE /* SegmentRegisterView.m in Sources */,
-				544EA790313710B663336E19F72035C9 /* SegmentTextField.m in Sources */,
+				075B90CF2332455000E8DEB8 /* SegmentBindPhoneView.m in Sources */,
+				075B90AD2332453E00E8DEB8 /* SegmentAnimationManager.m in Sources */,
+				075B90D32332455000E8DEB8 /* SegmentFastRegisterView.m in Sources */,
 				CE02070E8A82157576D78842C29D0419 /* SegmentView-dummy.m in Sources */,
-				5FBB4E8454ED9B7333AB517E194771A5 /* Target_SegmentViewHandler.m in Sources */,
+				075B90AF2332453E00E8DEB8 /* SegmentCheckBoxManager.m in Sources */,
+				075B90B02332453E00E8DEB8 /* SegmentPathManager.m in Sources */,
+				075B90D22332455000E8DEB8 /* SegmentRegisterView.m in Sources */,
+				075B90AC2332453E00E8DEB8 /* SegmentCheckBoxGroup.m in Sources */,
+				075B90B32332453E00E8DEB8 /* SegmentBundlePlistManager.m in Sources */,
+				075B90B42332453E00E8DEB8 /* SegmentAvoidCrashDictionary.m in Sources */,
+				075B90CB2332454F00E8DEB8 /* SegmentMainView.m in Sources */,
+				075B90AB2332453E00E8DEB8 /* SegmentButton.m in Sources */,
+				075B90D82332455000E8DEB8 /* SegmentProtocolView.m in Sources */,
+				075B9090233244F100E8DEB8 /* Target_SegmentViewHandler.m in Sources */,
+				075B90CA2332454F00E8DEB8 /* BaseSegmentView.m in Sources */,
+				075B90D52332455000E8DEB8 /* SegmentGameServiceView.m in Sources */,
+				075B90D42332455000E8DEB8 /* SegmentForgetPasswordView.m in Sources */,
+				075B90AE2332453E00E8DEB8 /* SegmentTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1363,8 +1297,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

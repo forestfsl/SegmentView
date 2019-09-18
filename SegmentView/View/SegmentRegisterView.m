@@ -7,8 +7,6 @@
 //
 
 #import "SegmentRegisterView.h"
-#import "SegmentTextField.h"
-#import "SegmentButton.h"
 #import "SegmentCheckBoxManager.h"
 #import "SegmentHeader.h"
 #import "UITextField+Segment.h"

@@ -1,6 +1,4 @@
 #import "SegmentForgetPasswordView.h"
-#import "SegmentTextField.h"
-#import "SegmentButton.h"
 #import "SegmentConfigMacro.h"
 #import "SegmentAvoidCrashDictionary.h"
 #import "CategoryHeader.h"

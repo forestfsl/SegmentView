@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "SegmentHeader.h"
+#import "SegmentBundlePlistManager.h"
+#import "SegmentConfigMacro.h"
+#import "SegmentButton.h"
+#import "SegmentTextField.h"
 
 typedef void(^SegmentViewPhotoCompleteBlock)(void);
 

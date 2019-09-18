@@ -1,5 +1,4 @@
 #import "SegmentGameServiceView.h"
-#import "SegmentButton.h"
 #import "SegmentForgetPasswordView.h"
 
 @interface SegmentGameServiceView ()<UITableViewDelegate,UITableViewDataSource>

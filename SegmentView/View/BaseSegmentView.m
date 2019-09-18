@@ -10,7 +10,6 @@
 #import "SegmentHeader.h"
 
 
-
 @implementation BaseSegmentView
 
 

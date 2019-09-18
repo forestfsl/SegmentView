@@ -7,8 +7,7 @@
 //
 
 #import "SegmentBindPhoneView.h"
-#import "SegmentTextField.h"
-#import "SegmentButton.h"
+
 #import "SegmentAvoidCrashDictionary.h"
 
 @interface SegmentBindPhoneView ()<UITextFieldDelegate>

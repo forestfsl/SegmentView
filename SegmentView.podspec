@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SegmentView'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'This is a module library that encapsulates the view component.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,35 @@ This is a module library that encapsulates the view component
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SegmentView/Classes/**/*'
+#  s.source_files = 'SegmentView/Classes/**/*'
+
+
+s.subspec 'Macro' do |ss|
+  ss.source_files = 'SegmentView/Macro/SegmentConfigMacro.h'
+  
+end
+
+s.subspec 'Tools' do |ss|
+  ss.source_files = 'SegmentView/Tools/*{h,m}'
+end
+
+s.subspec 'Widget' do |ss|
+  ss.source_files = 'SegmentView/Widget/*'
+  ss.dependency 'SegmentView/Macro'
+end
+
+s.subspec 'View' do |ss|
+  ss.source_files = 'SegmentView/View/*'
+  ss.dependency 'SegmentView/Macro'
+  ss.dependency 'SegmentView/Tools'
+  ss.dependency 'SegmentView/Widget'
+end
+
+s.subspec 'Target' do |ss|
+  ss.source_files = 'SegmentView/Target/*'
+  ss.dependency 'SegmentView/View'
+end
+
   
   # s.resource_bundles = {
   #   'SegmentView' => ['SegmentView/Assets/*.png']
@@ -48,6 +76,8 @@ This is a module library that encapsulates the view component
   s.dependency 'SLCategory'
   s.dependency 'CTMediatoKit'
   
+  
+
 #添加系统依赖静态库
  #s.library = 'sqlite3', 'xml2'
  

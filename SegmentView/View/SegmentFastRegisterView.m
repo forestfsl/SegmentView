@@ -7,7 +7,7 @@
 //
 
 #import "SegmentFastRegisterView.h"
-#import "SegmentButton.h"
+
 
 @interface SegmentFastRegisterView ()
 //保存账号密码按钮

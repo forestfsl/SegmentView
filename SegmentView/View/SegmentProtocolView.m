@@ -8,7 +8,6 @@
 
 #import "SegmentProtocolView.h"
 #import <WebKit/WebKit.h>
-#import "SegmentButton.h"
 
 @interface SegmentProtocolView ()<WKNavigationDelegate,WKUIDelegate>
 //背景

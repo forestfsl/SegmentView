@@ -9,14 +9,12 @@
 #ifndef SegmentHeader_h
 #define SegmentHeader_h
 
-#import "BaseSegmentView.h"
-#import "SegmentConfigMacro.h"
+
+
 #import "CTMediator+SegmentViewHud.h"
 #import "CTMediator+RequestAPI.h"
 #import "CTMediator+Config.h"
-#import "Masonry.h"
-#import "SegmentBundlePlistManager.h"
-#import "CategoryHeader.h"
-#import "SegmentTextField.h"
+#import <Masonry/Masonry.h>
+#import <SLCategory/CategoryHeader.h>
 
 #endif /* SegmentHeader_h */
