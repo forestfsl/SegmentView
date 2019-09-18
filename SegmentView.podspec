@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SegmentView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SegmentView.'
+  s.version          = '0.0.1'
+  s.summary          = 'This is a module library that encapsulates the view component.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+This is a module library that encapsulates the view component
                        DESC
 
   s.homepage         = 'https://github.com/forestfsl/SegmentView'
@@ -44,6 +45,8 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Masonry'
   s.dependency 'CTMediator'
+  s.dependency 'SLCategory'
+  s.dependency 'CTMediatoKit'
   
 #添加系统依赖静态库
  #s.library = 'sqlite3', 'xml2'

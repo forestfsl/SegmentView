@@ -1,8 +1,8 @@
 {
   "name": "SegmentView",
-  "version": "0.1.0",
-  "summary": "A short description of SegmentView.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "This is a module library that encapsulates the view component.",
+  "description": "TODO: Add long description of the pod here.\nThis is a module library that encapsulates the view component",
   "homepage": "https://github.com/forestfsl/SegmentView",
   "license": {
     "type": "MIT",
@@ -13,10 +13,24 @@
   },
   "source": {
     "git": "https://github.com/forestfsl/SegmentView.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "SegmentView/Classes/**/*"
+  "source_files": "SegmentView/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "CTMediator": [
+
+    ],
+    "SLCategory": [
+
+    ],
+    "CTMediatoKit": [
+
+    ]
+  }
 }

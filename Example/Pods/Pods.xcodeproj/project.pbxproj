@@ -7,310 +7,1042 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B5066BE7B81AEFCCBBCDD9DD9D3C8D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		26FE66C0156B59E5C19D3E37331851A2 /* Pods-SegmentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 836DF9238DCB9C4EBD62B97B9DA7000A /* Pods-SegmentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A3F8A5829F7A6A5983EC7401EB907F0 /* Pods-SegmentView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2710F9A9AFBCD7607178A88D3B35316A /* Pods-SegmentView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88DA1FE32CBC3E23934B96A90C58C3DE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 76228A5D2B523B26E614B038DC77006B /* ReplaceMe.m */; };
-		99009971E1DB45C94F02D7DD3A03CEE0 /* SegmentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3244EACC47490CE8A76172C643ACF188 /* SegmentView-dummy.m */; };
-		A218AF77FBD168AA8E5CBD8B1BCC8063 /* Pods-SegmentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E74426CCAF589D430A031AF033FF24FD /* Pods-SegmentView_Example-dummy.m */; };
-		B2FA5AFC194A60C82F5E3B83D7DF4309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BBBB0977F9EB4CC45DB3741ECD5B4736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C9E4A562AFCFA5787DA7A0A30B59C11E /* Pods-SegmentView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 986466225E56D1228996733F4A6AC384 /* Pods-SegmentView_Tests-dummy.m */; };
-		FB0C133819420ABF43185383D3B5608F /* SegmentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D959C8F8EFA4302F0B3664542446808F /* SegmentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D40AA9C03A040D41D80EF4DC28D682EF /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 505C4572E7855313D342DBFF8A2BD992 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06FB563C7337E9E79ED678D183E10BC8 /* SegmentAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F98AE561FF2B4228BC075D15675FA0E0 /* SegmentAnimationManager.m */; };
+		0882C20662223FE58930E06E0C32436D /* SegmentGameServiceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C9EE6F98F9F13A324DF53B7E17A23C /* SegmentGameServiceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 381DFAF011D64E6BF0AA91A324E021A6 /* ViewController+MASAdditions.m */; };
+		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E366B23003257FA16DC1D8B0BEFE0CE2 /* NSArray+MASAdditions.m */; };
+		0AAFB97958435F0519EACA098D26D5FC /* UIImageView+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E568B3EE0E5169F4A7BB741FEA2E068 /* UIImageView+Segment.m */; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 040A36A857717DBFBF254A194DE9FEE9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D341B131E3642F4F9BAE1D8E5FA21AA /* NSData+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 80308070A18A630EB58136AFDEC9E75D /* NSData+Segment.m */; };
+		0DC608C27E8FA7A6A719C15F10277B2D /* CTMediator+Config.h in Headers */ = {isa = PBXBuildFile; fileRef = C09CA90F1BCB7FA0BBCF43046DC458C0 /* CTMediator+Config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		191744225F88342959253A45EF6E150B /* CTMediator+AppStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A40E33DF16079F36A955FEC72C6465 /* CTMediator+AppStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD3FECC2644CCBCBC11879654E6F45 /* Masonry-dummy.m */; };
+		1DF7273DDFC134C0167842D0614FCE19 /* SegmentLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABCD7168AF8181053E319E792716A9AA /* SegmentLoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E9F327B42931BB82EB1BBD1EA174A2D /* CTMediator+SegmentViewHud.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ABE4C4A3E9D4CF3AFFD6CEA0DC7314 /* CTMediator+SegmentViewHud.m */; };
+		24AC9D42FA2C47C56A83AF998B5B6766 /* SegmentPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A0BEFC78724D0BBEA8726FEA09DD6AB8 /* SegmentPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		257FA4C5BDC701E42893B946F0CB6DBE /* SegmentRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48848DC59A22D182DB5B011272A720F6 /* SegmentRegisterView.m */; };
+		26704B327F3DEB02478B174F14FDAA7C /* CTMediator+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7F4E945F60BC3FFD1085619B8B03F7 /* CTMediator+Config.m */; };
+		27358C3E4109849022A698D30EE0CE27 /* SegmentCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A8A530F6B0DBA9B4D416719CFAA287 /* SegmentCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 875591FE714760C4D59793ABDF8C5485 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2819E5182DD2E1105EF8034E69D06D44 /* UIImageView+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED4B010C3A6F4E9B392C244A9B93EDD /* UIImageView+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A444FF49739411ED2BA630E3839AF72D /* MASViewAttribute.m */; };
+		2FAFCB5FCC18F35F8698F852D021D8B1 /* SegmentMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A42C0A6FA140886115CEB6AFAEA246 /* SegmentMainView.m */; };
+		3307CBA59D8ACE98BBC4D1AABFF578B2 /* Pods-SegmentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD6996E7379FEF104F3A044307FC8FE /* Pods-SegmentView_Example-dummy.m */; };
+		33BD45B78DF5E6DBA38C835BEE73C88C /* UITextField+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 48693E30D55145E38D131F281771B9D7 /* UITextField+Segment.m */; };
+		3451065EA681452A8B6A6EEB171E3F36 /* SegmentBundlePlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4745B141937506C4B2D2EAF6C50EB4F0 /* SegmentBundlePlistManager.m */; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BABD9F84355FFEB7E6102ED0782A47 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3558E0EA4035830D1C066C1D8A2411B0 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9AF95824AB415F27284BCACE8078A1 /* CTMediator.framework */; };
+		36EAB655EFF6C60016420A8619CE9BFA /* CTMediator+ViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F58776BC87A7D005B6AD028C651C5D2 /* CTMediator+ViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C36B61E82FD0FEEBB8225B8C33FE687 /* UITextField+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = BB19B02121E392041A5FE40847970DCD /* UITextField+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE15F64019AC26CC71EAE39B4CB5005 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4133E523FA6048D25FE5C4FEE4AF5AD5 /* CTMediator+RequestAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B1BD43A63759AD123E46B420C5AE6A /* CTMediator+RequestAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41AC4BB0DF2BC625476A42177AC67B34 /* SegmentAvoidCrashDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FD78CFB78324BD80B2F90A0AA458F5 /* SegmentAvoidCrashDictionary.m */; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F2618FFECC312D102BEA4759C43CDB /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D89B697B8E952BAAC1A9C508AD3D187 /* UIView+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 604EB88F93A837C81AC8835DA29C62E5 /* UIView+Segment.m */; };
+		505086A7D590B5FB0444CA98F11452A4 /* UIView+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = E573B4B46B17C6896272F18F1898872F /* UIView+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544EA790313710B663336E19F72035C9 /* SegmentTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF3F03066C31B7F2C3047CBD1F0720F /* SegmentTextField.m */; };
+		54886C6D3986476FB12332516D3212A5 /* SegmentHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0663AFEA913910E3F8BB5752A9BC8CB9 /* SegmentHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5553E7690FE1110761C857111905C60F /* CTMediatorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5D61E492DA2EB65A2B6EA7163A332B /* CTMediatorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562E63BC67F26BA3150AA7609D5247DF /* SLCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F665B9A3B448459C08929E2AC9C8B22 /* SLCategory.framework */; };
+		566E84E77666EACA84C09FDFB4A26949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9773D360B95BE4AC677540B875618433 /* Foundation.framework */; };
+		58A7FE3CEDC89779BF942AC7F57D2860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9773D360B95BE4AC677540B875618433 /* Foundation.framework */; };
+		5F944FD6DDC7F9C86A449377B750FB1E /* NSString+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3CBD5D1615EA84130BF16830BF681E /* NSString+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FBB4E8454ED9B7333AB517E194771A5 /* Target_SegmentViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1AF554A57E8BD5E1FEA7C2A1EDABE4 /* Target_SegmentViewHandler.m */; };
+		6081BB59F36FF1C53CCEE7FA022997EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9773D360B95BE4AC677540B875618433 /* Foundation.framework */; };
+		61074613253AFCC7BFA3C9BAF2B257F3 /* UILabel+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = B24FD000F3B9E8A41CE82C5DD2AE1D55 /* UILabel+Segment.m */; };
+		647B0501619234F93D872C2952CCA458 /* SegmentFastRegisterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FFCF4660378EBA07E65DBF97A510CD8 /* SegmentFastRegisterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66E67BA9B536E3E0BF1C5504830C98E6 /* SegmentTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C5087C25CB1193DD7796A108EFD1CC /* SegmentTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6806B3E7FBB8F94B52BE9538F427377A /* NSData+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B8D1D3BF6236668DA91E7495B4C7CC /* NSData+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81225ED7517147ADAB7DE6239425288A /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CDE212884687D2C8BD4CAA8E534E0BE /* SegmentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C746FDE146E003C624F2302E99036D9 /* SegmentButton.m */; };
+		6F77C0D29016118B83C8C0EE8505F228 /* CTMediator+RequestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F1C55190EC96B4BF70630ADAC2B589 /* CTMediator+RequestAPI.m */; };
+		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EC54584881EE83C3F92033C3F3F9F /* MASConstraintMaker.m */; };
+		79860AB3D23277F79474634139B84054 /* BaseSegmentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8269C5679DD57092376B11D4F98AD071 /* BaseSegmentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B70D937039829E3AEAE478DF29DB17E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC3D4E8104C73DF83A7D965A79F332 /* UIKit.framework */; };
+		7BC6D113B5BD44312AF7EB89A05F12F5 /* Pods-SegmentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E471053248A0A4610299E86BE032BA /* Pods-SegmentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 51542619E408253CD6FCBA6386795708 /* MASCompositeConstraint.m */; };
+		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB3EE178E6B00D253541F0D9B10E81 /* MASLayoutConstraint.m */; };
+		861BBE677E02BED5A903153AB51B1237 /* CTMediaAFNetworkReachbilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98440B983931A36188B32302D918FD9B /* CTMediaAFNetworkReachbilityManager.m */; };
+		88BB7518BEA71C9DDB82BB8DED7ACA76 /* CategoryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = DADF58514F06D0E6103E8E2B5365E16E /* CategoryHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		890BBC1EBD01D29D376260F08D434C0D /* NSDictionary+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8C80D8521420ED26D8C01677403A73 /* NSDictionary+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8ACBF44829C5F0A139B7EFDFB38E28 /* SegmentRegisterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5B1FF34D570C8C0E131420A38C57CE /* SegmentRegisterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A98E196E8DBC579CAE477A90323F2AC /* SegmentPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B61550713E61519A7B9F79F8C5B995F0 /* SegmentPathManager.m */; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4DBC3E3D7C090D3113E52282C91ECD /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D031E05902EC9A7E90E624D3ADB98CA /* Target_SegmentViewHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7C0F4BCA1A189BD3F68EC54E354B9F /* Target_SegmentViewHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F8F8AA1C8A8E1029B7E14E5223FC00 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5D1DD28B0AD01439C64CBFDB080EF9 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DB7FA335E8387205949B28DE4165CCD /* UILabel+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 17924BA284197180206237AC001671CD /* UILabel+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FADD2C71BA3627CF530D9BE50144AFD /* SegmentCheckBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE9A182F1701B4BAB6E0C76F0B83BAD /* SegmentCheckBoxManager.m */; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E6C95E779996F62C3E9A65BB2D9534 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		975E808CBA08793BFEBC3CC590ED63C2 /* NSDictionary+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B388891F3CA9A857172FA1795FDF7FF /* NSDictionary+Segment.m */; };
+		978A1ACFF1763772A7954770038995C2 /* SegmentGameServiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C6D4B7EB0C0E9C5438106807584ED3 /* SegmentGameServiceView.m */; };
+		99EFECC1032E95AF75A1DDA5E107C50B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9773D360B95BE4AC677540B875618433 /* Foundation.framework */; };
+		9B20F528DCF58380C3D01567FCBD4C70 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE4352121F464678D559B0A955515F0 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8EE1F1C8576B09827B2657C83B6E0F /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A318021943EA7CD8CCAD9F76A4E2F298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9773D360B95BE4AC677540B875618433 /* Foundation.framework */; };
+		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C27F40CCBC63E579B89C96803540BC /* View+MASAdditions.m */; };
+		A464F6421C23B4B9C20ADA384AD3DE47 /* CTMediator+ViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A11978AD1E94A52B830A9FD911506D /* CTMediator+ViewManager.m */; };
+		A831A0803DB2D14E28846500F9350683 /* CTMediatoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 491493F8958128B3777EC9E86E76714C /* CTMediatoKit-dummy.m */; };
+		AA53751AF36F2DA365A1AF49DF9DA024 /* SegmentFastRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E78CA58F1006FAA921C164B70A45F6 /* SegmentFastRegisterView.m */; };
+		AB1308BCF04D3D8ECD908C04D9011A77 /* SegmentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 889869FA33898BF6B4CEBDF6DA022834 /* SegmentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFB1E2BA9DCD80C443D1D09894E124B9 /* CTMediator+SegmentViewHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF3E8E8DE10FF07C8DF71E1A89A0C0 /* CTMediator+SegmentViewHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B08C4BF0AF36C4243D63176B7585687C /* CTMediator+AppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CC63684C1DEB3FBB14CEE1F668EDC4 /* CTMediator+AppStore.m */; };
+		B34AC64DD013CA0EFF20A723F87B367E /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFDA729D66E56F262B520DFC259FE9C /* CTMediator.m */; };
+		B3D603814705BA54A37C396761B0FE58 /* SegmentLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF5242BC19CD7437D01D75D7C2E954 /* SegmentLoginView.m */; };
+		B6DC802776E1D010F1848DD8B922C5EF /* SegmentCheckBoxManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E34AD663502CA980AEDBE284F78F9C0B /* SegmentCheckBoxManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE58C56563A19B0E48F27B0AFE146E3 /* MASViewConstraint.m */; };
+		B7F1C13BF877EC0389DA5A2D69A097B5 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C6A4F0A6B67F29E33BD710CCB43AA3 /* Masonry.framework */; };
+		BA8F2DDAF32D4B0DC5B7AC0079A3D6D1 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B78CC21F4D67C97BEBACDEAF569F99 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF7CAC7EE40753DAEAE801ADC11427FC /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9AF95824AB415F27284BCACE8078A1 /* CTMediator.framework */; };
+		BFC6506BB46AC103EC502FFDDBFE941C /* SegmentForgetPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 506FF130EA7E1487A4ECFE9E5B402807 /* SegmentForgetPasswordView.m */; };
+		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD1771CA5BB53E8DDBD1EF97B322508 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		CBDE8D26DA5307D188249DEB54D1DE74 /* CTMediaAFNetworkReachbilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F705A610AC853A709C57304F45CE259 /* CTMediaAFNetworkReachbilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8F78A4E19D7ADF65D4E586D66D6BAF /* SegmentProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = B26069749E91235258965FD024F969D4 /* SegmentProtocolView.m */; };
+		CD1CB35F30F08672879B5475A4EEC63B /* SegmentCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 80505D3E3DFF01B89B5F680BE5DDFA4B /* SegmentCheckBoxGroup.m */; };
+		CDB1751CF53ECA48BB49BA3507B8698B /* SegmentBundlePlistManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FE34DE8E891225962643AB609CCBFB /* SegmentBundlePlistManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE02070E8A82157576D78842C29D0419 /* SegmentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF7AFD68E2088A9229A2231C5F33635 /* SegmentView-dummy.m */; };
+		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABC3D4E8104C73DF83A7D965A79F332 /* UIKit.framework */; };
+		CF065DF0FDE35FEA47D2226ED7980DBA /* SegmentForgetPasswordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA27E2190930993A998EB2EE01E5258 /* SegmentForgetPasswordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF8FCA5B1E31A786335BD8D9CC0EF1D9 /* SegmentAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F86004DC04A17BDB1EA5CC79B702BE /* SegmentAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C12CCFCF84EF7F036681A3A7ADBEA5 /* BaseSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35790A9DE21C446BD8C39CE01E0190 /* BaseSegmentView.m */; };
+		D56C8E6110D4B7D2E0478A330CA91659 /* SegmentBindPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65525369B0B6FE679F355CF050E1BBF /* SegmentBindPhoneView.m */; };
+		DE6679F49C1230421158BF96048285D1 /* CategoryMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D44EE7B941FDA11CD7E1E25B4C3323E /* CategoryMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE9BE8A5CB04979311E902A6FF2A1AD8 /* CTMediatoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49EDD4E95A2EA3F5584F1C7E8B3D051 /* CTMediatoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9773D360B95BE4AC677540B875618433 /* Foundation.framework */; };
+		E697B517931EA49C29E6110E6B8FA90E /* SegmentProtocolView.h in Headers */ = {isa = PBXBuildFile; fileRef = A316C943C70B43B0247DD9C3BD3BD9A5 /* SegmentProtocolView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8E5878647FB6D3073A04B928136DEB /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E88C9C01651AB9844A3CE8C2181E0621 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB0BC01A98AABB2CBADC4E2C4D1E93 /* CTMediator-dummy.m */; };
+		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC3F051DC7AF8412A541AFE72C94601 /* MASConstraint.m */; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E5ECA36ACC2579751028BB68519C2C95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC0E449B5319AC0CDD3E848229BC1E8F /* SegmentMainView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B4A9C41C9F14616C65A3408DC6BDE8 /* SegmentMainView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1188790D63D65690D8CE18A9E2B089B /* SegmentBindPhoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6B528FBCDA5B20FDA758A135C6D485 /* SegmentBindPhoneView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45FA83A8A3BE00D17A89BA0471B392E /* SegmentConfigMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A56102DB187E8FC91C0FAA4551167F2 /* SegmentConfigMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F537686D8AB060FBF4A9F54304D1E9DD /* SLCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1345C42D617D10F2926DE9E330FA3998 /* SLCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8824625050396F2F4413C20C15B521B /* SegmentAvoidCrashDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DD26F6EFC38F419DD97A83AFEAD978 /* SegmentAvoidCrashDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA9D14E559BD5D59D20E29A3F296AE90 /* NSString+Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C42E2F296FA11DFED86774793F35793 /* NSString+Segment.m */; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C746D6DA50CDAD49C325D4CD582CE943 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB574754BB7B14C170529727974CDB8E /* SLCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE38B69CB05F9CAE0700402A5A8FBAB0 /* SLCategory-dummy.m */; };
+		FC71D7ADC6A55EC4AC26CEF8DE9AD016 /* CTMediatoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7424F35C17848E68F34E7090C38765 /* CTMediatoKit.framework */; };
+		FDCC552419271E88FCF1E5787C4469AD /* SegmentButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A036DBD646CEF0EDEC2F4B352019672 /* SegmentButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0517FC09FE775DD022010BECF4093B2A /* PBXContainerItemProxy */ = {
+		0CFDBF9134FAAA05D837E5A898694CF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 79DD38B0F7160FF75DD80478B8BA2293;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		15EEB3029BEF332B3CB1E9280B59A2DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		28D58A78408F4823CCDC67265A8402BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B08082ED9CF64A90855FFCEA869209AB;
+			remoteInfo = SLCategory;
+		};
+		4601904506A6C1176FB2F1D7E822DECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		8D7C9CD4E5A399D7ACE1446F2A530A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		AC0DE8E230965DFBFE26D12998271AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2E2C0A088897C6F4FC7DD40BC71E93E;
+			remoteInfo = CTMediatoKit;
+		};
+		C505F035EEECD99EAD68DA444B890E0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2E2C0A088897C6F4FC7DD40BC71E93E;
+			remoteInfo = CTMediatoKit;
+		};
+		C8AC314B8284B1D54981295432762705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421C41E0F2A62C5817CFB1CEC0E9C43F;
 			remoteInfo = SegmentView;
 		};
-		DFEC808E0670A0E065414D7307D11389 /* PBXContainerItemProxy */ = {
+		D30AB1FB1540C97444CF983E75086F48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6EBB9F41F659463E29D2A207964C32D3;
-			remoteInfo = "Pods-SegmentView_Example";
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		D513D33C5B474BE004AFC5E32BF44A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B08082ED9CF64A90855FFCEA869209AB;
+			remoteInfo = SLCategory;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A7306446AE32EC42E2162ED3019EB2A /* Pods-SegmentView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		10747F6F6470EF89E5834982F5E0675F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		18072119B7F6B56D6EB2C3BCD2A09AAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19B482C2983E663B53FA034A12B5D7B1 /* Pods-SegmentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1D16D7535B190D76471171801B8D8A0A /* SegmentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegmentView-prefix.pch"; sourceTree = "<group>"; };
-		22BDA509C26F0E43E363364556B49211 /* Pods-SegmentView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmentView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2710F9A9AFBCD7607178A88D3B35316A /* Pods-SegmentView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmentView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3244EACC47490CE8A76172C643ACF188 /* SegmentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SegmentView-dummy.m"; sourceTree = "<group>"; };
-		3A50DFBFC611D535C3A93594728A3491 /* Pods-SegmentView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3CCFF3B928470B14AB6926538C03AF78 /* SegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SegmentView.framework; path = SegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50C649FE3859060151DD70FA5B1ABF96 /* Pods_SegmentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SegmentView_Tests.framework; path = "Pods-SegmentView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D008864D40F2F5D663DF5DB799EE440 /* Pods-SegmentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5EEE944F7BACCA690236640F81793389 /* Pods_SegmentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SegmentView_Example.framework; path = "Pods-SegmentView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		664E083F0479E1031730CF442CFD39AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68CBF9A2D699C7E773E308891E8E8F05 /* Pods-SegmentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6962CAE3A31C5783CE235CF91161C978 /* Pods-SegmentView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		72D64FCC2B4111DBA8A7F9B7C23F743B /* Pods-SegmentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SegmentView_Example.modulemap"; sourceTree = "<group>"; };
-		74B0112D01B1C266F9E395C617F29712 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76228A5D2B523B26E614B038DC77006B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SegmentView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		77F8A372E33461312A3398830A97E1EF /* Pods-SegmentView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmentView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		79854651D9EA14F18C1DF1C44155FEBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7BC3ECD78B56C13EECB61A3E8B4A8311 /* Pods-SegmentView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		836DF9238DCB9C4EBD62B97B9DA7000A /* Pods-SegmentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmentView_Example-umbrella.h"; sourceTree = "<group>"; };
-		8B12E5DC0A68818193EB81044E61FC10 /* Pods-SegmentView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SegmentView_Tests.modulemap"; sourceTree = "<group>"; };
-		8C89D5F9DD12BE451D7303F0851A978F /* SegmentView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SegmentView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		986466225E56D1228996733F4A6AC384 /* Pods-SegmentView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmentView_Tests-dummy.m"; sourceTree = "<group>"; };
-		A655903BB11F99581C647C1F773D1AA4 /* SegmentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SegmentView.xcconfig; sourceTree = "<group>"; };
-		B5CA508AB67D1B3D58A8051A3DC8B3D2 /* Pods-SegmentView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C7053AA810278ED19BFEB1765A0612C9 /* Pods-SegmentView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentView_Tests-resources.sh"; sourceTree = "<group>"; };
-		D959C8F8EFA4302F0B3664542446808F /* SegmentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegmentView-umbrella.h"; sourceTree = "<group>"; };
-		E64161093BFD60E2E77065E99F2D6741 /* SegmentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SegmentView.modulemap; sourceTree = "<group>"; };
-		E74426CCAF589D430A031AF033FF24FD /* Pods-SegmentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmentView_Example-dummy.m"; sourceTree = "<group>"; };
-		FBE860C93D64206D2BFA266395F11067 /* Pods-SegmentView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentView_Example-resources.sh"; sourceTree = "<group>"; };
+		00952B9E4B3E507B57285181A72E8259 /* Pods-SegmentView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmentView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		040A36A857717DBFBF254A194DE9FEE9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		0663AFEA913910E3F8BB5752A9BC8CB9 /* SegmentHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentHeader.h; sourceTree = "<group>"; };
+		12B1BD43A63759AD123E46B420C5AE6A /* CTMediator+RequestAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+RequestAPI.h"; path = "CTMediatoKit/Classes/CTMediator+RequestAPI.h"; sourceTree = "<group>"; };
+		1345C42D617D10F2926DE9E330FA3998 /* SLCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLCategory-umbrella.h"; sourceTree = "<group>"; };
+		17924BA284197180206237AC001671CD /* UILabel+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Segment.h"; path = "SLCategory/Classes/UILabel+Segment.h"; sourceTree = "<group>"; };
+		17F1C55190EC96B4BF70630ADAC2B589 /* CTMediator+RequestAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+RequestAPI.m"; path = "CTMediatoKit/Classes/CTMediator+RequestAPI.m"; sourceTree = "<group>"; };
+		19E471053248A0A4610299E86BE032BA /* Pods-SegmentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmentView_Example-umbrella.h"; sourceTree = "<group>"; };
+		19FD78CFB78324BD80B2F90A0AA458F5 /* SegmentAvoidCrashDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentAvoidCrashDictionary.m; sourceTree = "<group>"; };
+		1C746FDE146E003C624F2302E99036D9 /* SegmentButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentButton.m; sourceTree = "<group>"; };
+		1D35790A9DE21C446BD8C39CE01E0190 /* BaseSegmentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseSegmentView.m; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AD3FECC2644CCBCBC11879654E6F45 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		25EB0BC01A98AABB2CBADC4E2C4D1E93 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		272D73DB79D60EDE7E64141B0EF1E8E3 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		27C27F40CCBC63E579B89C96803540BC /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		29B8D1D3BF6236668DA91E7495B4C7CC /* NSData+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Segment.h"; path = "SLCategory/Classes/NSData+Segment.h"; sourceTree = "<group>"; };
+		2C6A659EAE7151EB8F8368BA8FCCC752 /* SLCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLCategory.modulemap; sourceTree = "<group>"; };
+		2F8EE1F1C8576B09827B2657C83B6E0F /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2FF7AFD68E2088A9229A2231C5F33635 /* SegmentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SegmentView-dummy.m"; sourceTree = "<group>"; };
+		33CA5345541B710D88AF22F0D492AE3E /* Pods-SegmentView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentView_Example-Info.plist"; sourceTree = "<group>"; };
+		36DD26F6EFC38F419DD97A83AFEAD978 /* SegmentAvoidCrashDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentAvoidCrashDictionary.h; sourceTree = "<group>"; };
+		381DFAF011D64E6BF0AA91A324E021A6 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		387C3C0AD3D35C10F979FD31D68C2431 /* SegmentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SegmentView.modulemap; sourceTree = "<group>"; };
+		3C0F13FE72FC5FCA65AC9E9174B28168 /* SLCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLCategory.xcconfig; sourceTree = "<group>"; };
+		3C42E2F296FA11DFED86774793F35793 /* NSString+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Segment.m"; path = "SLCategory/Classes/NSString+Segment.m"; sourceTree = "<group>"; };
+		3E5B1FF34D570C8C0E131420A38C57CE /* SegmentRegisterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentRegisterView.h; sourceTree = "<group>"; };
+		3FFCF4660378EBA07E65DBF97A510CD8 /* SegmentFastRegisterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentFastRegisterView.h; sourceTree = "<group>"; };
+		4253993D34C2FA8A9D1DF261569E6F59 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		4745B141937506C4B2D2EAF6C50EB4F0 /* SegmentBundlePlistManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentBundlePlistManager.m; sourceTree = "<group>"; };
+		48693E30D55145E38D131F281771B9D7 /* UITextField+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Segment.m"; path = "SLCategory/Classes/UITextField+Segment.m"; sourceTree = "<group>"; };
+		48848DC59A22D182DB5B011272A720F6 /* SegmentRegisterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentRegisterView.m; sourceTree = "<group>"; };
+		491493F8958128B3777EC9E86E76714C /* CTMediatoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediatoKit-dummy.m"; sourceTree = "<group>"; };
+		4A036DBD646CEF0EDEC2F4B352019672 /* SegmentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentButton.h; sourceTree = "<group>"; };
+		4CA27E2190930993A998EB2EE01E5258 /* SegmentForgetPasswordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentForgetPasswordView.h; sourceTree = "<group>"; };
+		4D44EE7B941FDA11CD7E1E25B4C3323E /* CategoryMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CategoryMacro.h; path = SLCategory/Classes/CategoryMacro.h; sourceTree = "<group>"; };
+		4F665B9A3B448459C08929E2AC9C8B22 /* SLCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		505C4572E7855313D342DBFF8A2BD992 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		506FF130EA7E1487A4ECFE9E5B402807 /* SegmentForgetPasswordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentForgetPasswordView.m; sourceTree = "<group>"; };
+		51542619E408253CD6FCBA6386795708 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		56A11978AD1E94A52B830A9FD911506D /* CTMediator+ViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+ViewManager.m"; path = "CTMediatoKit/Classes/CTMediator+ViewManager.m"; sourceTree = "<group>"; };
+		586EC54584881EE83C3F92033C3F3F9F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		5B0417E82BE0D7BB25765362256B3085 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5D5D1DD28B0AD01439C64CBFDB080EF9 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		5D9AF95824AB415F27284BCACE8078A1 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF2E230AB98C549BA6DD72EFC152B50 /* Pods-SegmentView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmentView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		604EB88F93A837C81AC8835DA29C62E5 /* UIView+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Segment.m"; path = "SLCategory/Classes/UIView+Segment.m"; sourceTree = "<group>"; };
+		65FE34DE8E891225962643AB609CCBFB /* SegmentBundlePlistManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentBundlePlistManager.h; sourceTree = "<group>"; };
+		65FF3E8E8DE10FF07C8DF71E1A89A0C0 /* CTMediator+SegmentViewHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+SegmentViewHud.h"; path = "CTMediatoKit/Classes/CTMediator+SegmentViewHud.h"; sourceTree = "<group>"; };
+		668848BBDE132F00FC8E7608057F5341 /* CTMediatoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediatoKit.framework; path = CTMediatoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C6D4B7EB0C0E9C5438106807584ED3 /* SegmentGameServiceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentGameServiceView.m; sourceTree = "<group>"; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F86004DC04A17BDB1EA5CC79B702BE /* SegmentAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentAnimationManager.h; sourceTree = "<group>"; };
+		6A5AA81BFB07A050B9CBAD8318D8058D /* SegmentView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SegmentView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C4DBC3E3D7C090D3113E52282C91ECD /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		6D2010EA219410B32AD7A5759C0978B6 /* Pods-SegmentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6D3CBD5D1615EA84130BF16830BF681E /* NSString+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Segment.h"; path = "SLCategory/Classes/NSString+Segment.h"; sourceTree = "<group>"; };
+		6E568B3EE0E5169F4A7BB741FEA2E068 /* UIImageView+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Segment.m"; path = "SLCategory/Classes/UIImageView+Segment.m"; sourceTree = "<group>"; };
+		6F705A610AC853A709C57304F45CE259 /* CTMediaAFNetworkReachbilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediaAFNetworkReachbilityManager.h; path = CTMediatoKit/Classes/CTMediaAFNetworkReachbilityManager.h; sourceTree = "<group>"; };
+		70620B3FE74D789BE4420105C4466F60 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		71DD1E8751769F0D40C099EF90A1A04B /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		71E78CA58F1006FAA921C164B70A45F6 /* SegmentFastRegisterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentFastRegisterView.m; sourceTree = "<group>"; };
+		75B4A9C41C9F14616C65A3408DC6BDE8 /* SegmentMainView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentMainView.h; sourceTree = "<group>"; };
+		75CC63684C1DEB3FBB14CEE1F668EDC4 /* CTMediator+AppStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+AppStore.m"; path = "CTMediatoKit/Classes/CTMediator+AppStore.m"; sourceTree = "<group>"; };
+		78C5087C25CB1193DD7796A108EFD1CC /* SegmentTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentTextField.h; sourceTree = "<group>"; };
+		799B7D634E05D039CDC1EBCAB765795B /* CTMediatoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediatoKit-Info.plist"; sourceTree = "<group>"; };
+		79A42C0A6FA140886115CEB6AFAEA246 /* SegmentMainView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentMainView.m; sourceTree = "<group>"; };
+		7A56102DB187E8FC91C0FAA4551167F2 /* SegmentConfigMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentConfigMacro.h; sourceTree = "<group>"; };
+		7B388891F3CA9A857172FA1795FDF7FF /* NSDictionary+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Segment.m"; path = "SLCategory/Classes/NSDictionary+Segment.m"; sourceTree = "<group>"; };
+		7F7C0F4BCA1A189BD3F68EC54E354B9F /* Target_SegmentViewHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_SegmentViewHandler.h; sourceTree = "<group>"; };
+		80308070A18A630EB58136AFDEC9E75D /* NSData+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Segment.m"; path = "SLCategory/Classes/NSData+Segment.m"; sourceTree = "<group>"; };
+		80505D3E3DFF01B89B5F680BE5DDFA4B /* SegmentCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentCheckBoxGroup.m; sourceTree = "<group>"; };
+		811DE9A85845046938428E807145AB8A /* Pods-SegmentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		81225ED7517147ADAB7DE6239425288A /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		8269C5679DD57092376B11D4F98AD071 /* BaseSegmentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseSegmentView.h; sourceTree = "<group>"; };
+		82C9EE6F98F9F13A324DF53B7E17A23C /* SegmentGameServiceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentGameServiceView.h; sourceTree = "<group>"; };
+		86BABD9F84355FFEB7E6102ED0782A47 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		875591FE714760C4D59793ABDF8C5485 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		889869FA33898BF6B4CEBDF6DA022834 /* SegmentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegmentView-umbrella.h"; sourceTree = "<group>"; };
+		89E6C95E779996F62C3E9A65BB2D9534 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		8AE45FFF07C14C786468DA336258D0D2 /* SegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SegmentView.framework; path = SegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F8F8AA1C8A8E1029B7E14E5223FC00 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		92A40E33DF16079F36A955FEC72C6465 /* CTMediator+AppStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+AppStore.h"; path = "CTMediatoKit/Classes/CTMediator+AppStore.h"; sourceTree = "<group>"; };
+		9678B5C383DDC9582955443DB919FBEF /* SegmentView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SegmentView-Info.plist"; sourceTree = "<group>"; };
+		9773D360B95BE4AC677540B875618433 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		98440B983931A36188B32302D918FD9B /* CTMediaAFNetworkReachbilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediaAFNetworkReachbilityManager.m; path = CTMediatoKit/Classes/CTMediaAFNetworkReachbilityManager.m; sourceTree = "<group>"; };
+		9CE9A182F1701B4BAB6E0C76F0B83BAD /* SegmentCheckBoxManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentCheckBoxManager.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED4B010C3A6F4E9B392C244A9B93EDD /* UIImageView+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Segment.h"; path = "SLCategory/Classes/UIImageView+Segment.h"; sourceTree = "<group>"; };
+		9EE4352121F464678D559B0A955515F0 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		9EFDA729D66E56F262B520DFC259FE9C /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		9F58776BC87A7D005B6AD028C651C5D2 /* CTMediator+ViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+ViewManager.h"; path = "CTMediatoKit/Classes/CTMediator+ViewManager.h"; sourceTree = "<group>"; };
+		A0BEFC78724D0BBEA8726FEA09DD6AB8 /* SegmentPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentPathManager.h; sourceTree = "<group>"; };
+		A2EB3EE178E6B00D253541F0D9B10E81 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A316C943C70B43B0247DD9C3BD3BD9A5 /* SegmentProtocolView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentProtocolView.h; sourceTree = "<group>"; };
+		A444FF49739411ED2BA630E3839AF72D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		A55F145ADAE03970B65A6A0D5D8B62B6 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		A65525369B0B6FE679F355CF050E1BBF /* SegmentBindPhoneView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentBindPhoneView.m; sourceTree = "<group>"; };
+		AA3899379088A0A3C14DC9F1656C6A56 /* CTMediatoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediatoKit.modulemap; sourceTree = "<group>"; };
+		ABCD7168AF8181053E319E792716A9AA /* SegmentLoginView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentLoginView.h; sourceTree = "<group>"; };
+		ADD01C0F48A4751CBEA3EE9D652B01D5 /* SLCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SLCategory.framework; path = SLCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1AF554A57E8BD5E1FEA7C2A1EDABE4 /* Target_SegmentViewHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_SegmentViewHandler.m; sourceTree = "<group>"; };
+		B1C6A4F0A6B67F29E33BD710CCB43AA3 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24FD000F3B9E8A41CE82C5DD2AE1D55 /* UILabel+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Segment.m"; path = "SLCategory/Classes/UILabel+Segment.m"; sourceTree = "<group>"; };
+		B26069749E91235258965FD024F969D4 /* SegmentProtocolView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentProtocolView.m; sourceTree = "<group>"; };
+		B61550713E61519A7B9F79F8C5B995F0 /* SegmentPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentPathManager.m; sourceTree = "<group>"; };
+		BAAF5242BC19CD7437D01D75D7C2E954 /* SegmentLoginView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentLoginView.m; sourceTree = "<group>"; };
+		BB19B02121E392041A5FE40847970DCD /* UITextField+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Segment.h"; path = "SLCategory/Classes/UITextField+Segment.h"; sourceTree = "<group>"; };
+		BE7F4E945F60BC3FFD1085619B8B03F7 /* CTMediator+Config.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+Config.m"; path = "CTMediatoKit/Classes/CTMediator+Config.m"; sourceTree = "<group>"; };
+		C09CA90F1BCB7FA0BBCF43046DC458C0 /* CTMediator+Config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+Config.h"; path = "CTMediatoKit/Classes/CTMediator+Config.h"; sourceTree = "<group>"; };
+		C409E8415B1C3F8B4B3EE6B06CABDE75 /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		C746D6DA50CDAD49C325D4CD582CE943 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		CA5D61E492DA2EB65A2B6EA7163A332B /* CTMediatorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediatorHeader.h; path = CTMediatoKit/Classes/CTMediatorHeader.h; sourceTree = "<group>"; };
+		CBACD27FE8CF83209A205A5F6A315AFA /* SLCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLCategory-prefix.pch"; sourceTree = "<group>"; };
+		CC55F31B126A23CD26BD0A11952FDB44 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		CD7424F35C17848E68F34E7090C38765 /* CTMediatoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediatoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD2A274022A804D2F4A98EE4F3D43D7 /* SegmentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegmentView-prefix.pch"; sourceTree = "<group>"; };
+		CDF3F03066C31B7F2C3047CBD1F0720F /* SegmentTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentTextField.m; sourceTree = "<group>"; };
+		CEC3F051DC7AF8412A541AFE72C94601 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		CED2423C3DEB759B5D8F6231EF9E6BEE /* CTMediatoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediatoKit-prefix.pch"; sourceTree = "<group>"; };
+		CFD3D69C94564C545A684B52F01C7605 /* CTMediatoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediatoKit.xcconfig; sourceTree = "<group>"; };
+		D0F2618FFECC312D102BEA4759C43CDB /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		D40AA9C03A040D41D80EF4DC28D682EF /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D8744705D0DB92A0AD753868E5FB2255 /* Pods_SegmentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SegmentView_Example.framework; path = "Pods-SegmentView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADF58514F06D0E6103E8E2B5365E16E /* CategoryHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CategoryHeader.h; path = SLCategory/Classes/CategoryHeader.h; sourceTree = "<group>"; };
+		DBE58C56563A19B0E48F27B0AFE146E3 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		DD8C80D8521420ED26D8C01677403A73 /* NSDictionary+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Segment.h"; path = "SLCategory/Classes/NSDictionary+Segment.h"; sourceTree = "<group>"; };
+		DDBCDB05A5610E4D26EB4288FF825005 /* Pods-SegmentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SegmentView_Example.modulemap"; sourceTree = "<group>"; };
+		DE38B69CB05F9CAE0700402A5A8FBAB0 /* SLCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLCategory-dummy.m"; sourceTree = "<group>"; };
+		DEE15F64019AC26CC71EAE39B4CB5005 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		DF8E5878647FB6D3073A04B928136DEB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DFD6996E7379FEF104F3A044307FC8FE /* Pods-SegmentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmentView_Example-dummy.m"; sourceTree = "<group>"; };
+		E0B78CC21F4D67C97BEBACDEAF569F99 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		E252C917BD4F5E6ABF8F7A1DB7D86E79 /* SLCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SLCategory-Info.plist"; sourceTree = "<group>"; };
+		E30799B0F196A47BCA0A385F0E8E3117 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E34AD663502CA980AEDBE284F78F9C0B /* SegmentCheckBoxManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentCheckBoxManager.h; sourceTree = "<group>"; };
+		E366B23003257FA16DC1D8B0BEFE0CE2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		E422F7D60C1CD6BE6127B955AD6A96D0 /* SegmentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SegmentView.xcconfig; sourceTree = "<group>"; };
+		E4ABE4C4A3E9D4CF3AFFD6CEA0DC7314 /* CTMediator+SegmentViewHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+SegmentViewHud.m"; path = "CTMediatoKit/Classes/CTMediator+SegmentViewHud.m"; sourceTree = "<group>"; };
+		E573B4B46B17C6896272F18F1898872F /* UIView+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Segment.h"; path = "SLCategory/Classes/UIView+Segment.h"; sourceTree = "<group>"; };
+		E5ECA36ACC2579751028BB68519C2C95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		E8A8A530F6B0DBA9B4D416719CFAA287 /* SegmentCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentCheckBoxGroup.h; sourceTree = "<group>"; };
+		EABC3D4E8104C73DF83A7D965A79F332 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EDD1771CA5BB53E8DDBD1EF97B322508 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F3E1E6B5C003792460F6F83832ADD616 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		F49EDD4E95A2EA3F5584F1C7E8B3D051 /* CTMediatoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediatoKit-umbrella.h"; sourceTree = "<group>"; };
+		F98AE561FF2B4228BC075D15675FA0E0 /* SegmentAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentAnimationManager.m; sourceTree = "<group>"; };
+		FA6B528FBCDA5B20FDA758A135C6D485 /* SegmentBindPhoneView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentBindPhoneView.h; sourceTree = "<group>"; };
+		FD14EB5B94F574DA3389461A29A5C4A1 /* Pods-SegmentView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8AF63B01C6B08DDD78541ABC5A7B219B /* Frameworks */ = {
+		12EEC27E4762739EBCA078F3223F49D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B5066BE7B81AEFCCBBCDD9DD9D3C8D3 /* Foundation.framework in Frameworks */,
+				6081BB59F36FF1C53CCEE7FA022997EE /* Foundation.framework in Frameworks */,
+				7B70D937039829E3AEAE478DF29DB17E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98FDC966879B370D514C42EABA74B070 /* Frameworks */ = {
+		16FB3040CA3609703C9CAE97E92F14D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2FA5AFC194A60C82F5E3B83D7DF4309 /* Foundation.framework in Frameworks */,
+				FC71D7ADC6A55EC4AC26CEF8DE9AD016 /* CTMediatoKit.framework in Frameworks */,
+				3558E0EA4035830D1C066C1D8A2411B0 /* CTMediator.framework in Frameworks */,
+				99EFECC1032E95AF75A1DDA5E107C50B /* Foundation.framework in Frameworks */,
+				B7F1C13BF877EC0389DA5A2D69A097B5 /* Masonry.framework in Frameworks */,
+				562E63BC67F26BA3150AA7609D5247DF /* SLCategory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD826C72593574FEACC3058C64C1E7E /* Frameworks */ = {
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBB0977F9EB4CC45DB3741ECD5B4736 /* Foundation.framework in Frameworks */,
+				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
+				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0A5BAA547EC7969DE84CF667CD6911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A7FE3CEDC89779BF942AC7F57D2860 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9522F2DC21FBCBFBA8C9F27ED5DC80BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7CAC7EE40753DAEAE801ADC11427FC /* CTMediator.framework in Frameworks */,
+				566E84E77666EACA84C09FDFB4A26949 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE88B34B064D1915AE39BFEF17433BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A318021943EA7CD8CCAD9F76A4E2F298 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0423B2B03AF6B332D09BA19EEC6620D4 /* Products */ = {
+		0250A029370B37B7E308F0D2369D7CF1 /* Register */ = {
 			isa = PBXGroup;
 			children = (
-				5EEE944F7BACCA690236640F81793389 /* Pods_SegmentView_Example.framework */,
-				50C649FE3859060151DD70FA5B1ABF96 /* Pods_SegmentView_Tests.framework */,
-				3CCFF3B928470B14AB6926538C03AF78 /* SegmentView.framework */,
+				3FFCF4660378EBA07E65DBF97A510CD8 /* SegmentFastRegisterView.h */,
+				71E78CA58F1006FAA921C164B70A45F6 /* SegmentFastRegisterView.m */,
+				3E5B1FF34D570C8C0E131420A38C57CE /* SegmentRegisterView.h */,
+				48848DC59A22D182DB5B011272A720F6 /* SegmentRegisterView.m */,
 			);
-			name = Products;
+			name = Register;
+			path = SegmentView/Classes/Register;
 			sourceTree = "<group>";
 		};
-		1955CE29DE7D9D1CCF79D721DD3801DA /* SegmentView */ = {
+		0366FA421457F52CA0E048D889F8AC91 /* SegmentView */ = {
 			isa = PBXGroup;
 			children = (
-				76228A5D2B523B26E614B038DC77006B /* ReplaceMe.m */,
-				22D585F624856BB621C162338DFFED7A /* Pod */,
-				7D850350F103F741779E3316C93247E8 /* Support Files */,
+				CF9150B28FE954B898A871B2ABE3B582 /* Base */,
+				CE9D830328E1A11F5EE41A68C9795E66 /* BindPhone */,
+				D0A0C27D0FB84DF1004D673C90BF6511 /* CustomService */,
+				B82D7AC5E390BE933F110E51B6CB665E /* Lgoin */,
+				9BF7CA1FD48E91CD743F1214984312C4 /* Main */,
+				6F6BB57FACB20583670050207504F7AD /* PasswordView */,
+				736A87359582B4F7E6EB5E9262757BB2 /* Pod */,
+				77205C9DFB8A5FFEBE4F38AC3AC29534 /* ProtocolView */,
+				0250A029370B37B7E308F0D2369D7CF1 /* Register */,
+				DDEA68A263ECDC417987FEB7E02C629F /* Support Files */,
+				06D31B00C4DDEB48B17E83C0EE30F269 /* Target */,
+				2E76F7B2B8D6648842CB03694E49D563 /* Tools */,
+				BAE996D4D6D7464797C61FB62F586179 /* Widget */,
 			);
 			name = SegmentView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		22D585F624856BB621C162338DFFED7A /* Pod */ = {
+		06D31B00C4DDEB48B17E83C0EE30F269 /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				10747F6F6470EF89E5834982F5E0675F /* LICENSE */,
-				79854651D9EA14F18C1DF1C44155FEBD /* README.md */,
-				8C89D5F9DD12BE451D7303F0851A978F /* SegmentView.podspec */,
+				7F7C0F4BCA1A189BD3F68EC54E354B9F /* Target_SegmentViewHandler.h */,
+				AE1AF554A57E8BD5E1FEA7C2A1EDABE4 /* Target_SegmentViewHandler.m */,
 			);
-			name = Pod;
+			name = Target;
+			path = SegmentView/Classes/Target;
 			sourceTree = "<group>";
 		};
-		29BEACFD29864041671EEF71FAC9E00A /* Targets Support Files */ = {
+		1302E46FB4F0FE828437DCF425FB1794 /* SLCategory */ = {
 			isa = PBXGroup;
 			children = (
-				C47914E78E7B9D288B495B984DC3D9C2 /* Pods-SegmentView_Example */,
-				9173BC7C8A044BA587E82826972C3E71 /* Pods-SegmentView_Tests */,
+				DADF58514F06D0E6103E8E2B5365E16E /* CategoryHeader.h */,
+				4D44EE7B941FDA11CD7E1E25B4C3323E /* CategoryMacro.h */,
+				29B8D1D3BF6236668DA91E7495B4C7CC /* NSData+Segment.h */,
+				80308070A18A630EB58136AFDEC9E75D /* NSData+Segment.m */,
+				DD8C80D8521420ED26D8C01677403A73 /* NSDictionary+Segment.h */,
+				7B388891F3CA9A857172FA1795FDF7FF /* NSDictionary+Segment.m */,
+				6D3CBD5D1615EA84130BF16830BF681E /* NSString+Segment.h */,
+				3C42E2F296FA11DFED86774793F35793 /* NSString+Segment.m */,
+				9ED4B010C3A6F4E9B392C244A9B93EDD /* UIImageView+Segment.h */,
+				6E568B3EE0E5169F4A7BB741FEA2E068 /* UIImageView+Segment.m */,
+				17924BA284197180206237AC001671CD /* UILabel+Segment.h */,
+				B24FD000F3B9E8A41CE82C5DD2AE1D55 /* UILabel+Segment.m */,
+				BB19B02121E392041A5FE40847970DCD /* UITextField+Segment.h */,
+				48693E30D55145E38D131F281771B9D7 /* UITextField+Segment.m */,
+				E573B4B46B17C6896272F18F1898872F /* UIView+Segment.h */,
+				604EB88F93A837C81AC8835DA29C62E5 /* UIView+Segment.m */,
+				1530DB52E7D89275685907B37E8A5DA8 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = SLCategory;
+			path = SLCategory;
 			sourceTree = "<group>";
 		};
-		66497296C010547079B02F849F9D2913 /* Development Pods */ = {
+		1520611A917F353CFBCADD5A4549ED9D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1955CE29DE7D9D1CCF79D721DD3801DA /* SegmentView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7D850350F103F741779E3316C93247E8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				74B0112D01B1C266F9E395C617F29712 /* Info.plist */,
-				E64161093BFD60E2E77065E99F2D6741 /* SegmentView.modulemap */,
-				A655903BB11F99581C647C1F773D1AA4 /* SegmentView.xcconfig */,
-				3244EACC47490CE8A76172C643ACF188 /* SegmentView-dummy.m */,
-				1D16D7535B190D76471171801B8D8A0A /* SegmentView-prefix.pch */,
-				D959C8F8EFA4302F0B3664542446808F /* SegmentView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SegmentView";
-			sourceTree = "<group>";
-		};
-		9173BC7C8A044BA587E82826972C3E71 /* Pods-SegmentView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				18072119B7F6B56D6EB2C3BCD2A09AAB /* Info.plist */,
-				8B12E5DC0A68818193EB81044E61FC10 /* Pods-SegmentView_Tests.modulemap */,
-				22BDA509C26F0E43E363364556B49211 /* Pods-SegmentView_Tests-acknowledgements.markdown */,
-				6962CAE3A31C5783CE235CF91161C978 /* Pods-SegmentView_Tests-acknowledgements.plist */,
-				986466225E56D1228996733F4A6AC384 /* Pods-SegmentView_Tests-dummy.m */,
-				7BC3ECD78B56C13EECB61A3E8B4A8311 /* Pods-SegmentView_Tests-frameworks.sh */,
-				C7053AA810278ED19BFEB1765A0612C9 /* Pods-SegmentView_Tests-resources.sh */,
-				2710F9A9AFBCD7607178A88D3B35316A /* Pods-SegmentView_Tests-umbrella.h */,
-				68CBF9A2D699C7E773E308891E8E8F05 /* Pods-SegmentView_Tests.debug.xcconfig */,
-				0A7306446AE32EC42E2162ED3019EB2A /* Pods-SegmentView_Tests.release.xcconfig */,
-			);
-			name = "Pods-SegmentView_Tests";
-			path = "Target Support Files/Pods-SegmentView_Tests";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				9773D360B95BE4AC677540B875618433 /* Foundation.framework */,
+				EABC3D4E8104C73DF83A7D965A79F332 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C47914E78E7B9D288B495B984DC3D9C2 /* Pods-SegmentView_Example */ = {
+		1530DB52E7D89275685907B37E8A5DA8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				664E083F0479E1031730CF442CFD39AC /* Info.plist */,
-				72D64FCC2B4111DBA8A7F9B7C23F743B /* Pods-SegmentView_Example.modulemap */,
-				77F8A372E33461312A3398830A97E1EF /* Pods-SegmentView_Example-acknowledgements.markdown */,
-				B5CA508AB67D1B3D58A8051A3DC8B3D2 /* Pods-SegmentView_Example-acknowledgements.plist */,
-				E74426CCAF589D430A031AF033FF24FD /* Pods-SegmentView_Example-dummy.m */,
-				3A50DFBFC611D535C3A93594728A3491 /* Pods-SegmentView_Example-frameworks.sh */,
-				FBE860C93D64206D2BFA266395F11067 /* Pods-SegmentView_Example-resources.sh */,
-				836DF9238DCB9C4EBD62B97B9DA7000A /* Pods-SegmentView_Example-umbrella.h */,
-				5D008864D40F2F5D663DF5DB799EE440 /* Pods-SegmentView_Example.debug.xcconfig */,
-				19B482C2983E663B53FA034A12B5D7B1 /* Pods-SegmentView_Example.release.xcconfig */,
+				2C6A659EAE7151EB8F8368BA8FCCC752 /* SLCategory.modulemap */,
+				3C0F13FE72FC5FCA65AC9E9174B28168 /* SLCategory.xcconfig */,
+				DE38B69CB05F9CAE0700402A5A8FBAB0 /* SLCategory-dummy.m */,
+				E252C917BD4F5E6ABF8F7A1DB7D86E79 /* SLCategory-Info.plist */,
+				CBACD27FE8CF83209A205A5F6A315AFA /* SLCategory-prefix.pch */,
+				1345C42D617D10F2926DE9E330FA3998 /* SLCategory-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SLCategory";
+			sourceTree = "<group>";
+		};
+		20F74ABAE0EF7474C5891E1AF1DE3EED /* Pods-SegmentView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DDBCDB05A5610E4D26EB4288FF825005 /* Pods-SegmentView_Example.modulemap */,
+				5EF2E230AB98C549BA6DD72EFC152B50 /* Pods-SegmentView_Example-acknowledgements.markdown */,
+				FD14EB5B94F574DA3389461A29A5C4A1 /* Pods-SegmentView_Example-acknowledgements.plist */,
+				DFD6996E7379FEF104F3A044307FC8FE /* Pods-SegmentView_Example-dummy.m */,
+				00952B9E4B3E507B57285181A72E8259 /* Pods-SegmentView_Example-frameworks.sh */,
+				33CA5345541B710D88AF22F0D492AE3E /* Pods-SegmentView_Example-Info.plist */,
+				19E471053248A0A4610299E86BE032BA /* Pods-SegmentView_Example-umbrella.h */,
+				6D2010EA219410B32AD7A5759C0978B6 /* Pods-SegmentView_Example.debug.xcconfig */,
+				811DE9A85845046938428E807145AB8A /* Pods-SegmentView_Example.release.xcconfig */,
 			);
 			name = "Pods-SegmentView_Example";
 			path = "Target Support Files/Pods-SegmentView_Example";
 			sourceTree = "<group>";
 		};
+		2E76F7B2B8D6648842CB03694E49D563 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				36DD26F6EFC38F419DD97A83AFEAD978 /* SegmentAvoidCrashDictionary.h */,
+				19FD78CFB78324BD80B2F90A0AA458F5 /* SegmentAvoidCrashDictionary.m */,
+				65FE34DE8E891225962643AB609CCBFB /* SegmentBundlePlistManager.h */,
+				4745B141937506C4B2D2EAF6C50EB4F0 /* SegmentBundlePlistManager.m */,
+			);
+			name = Tools;
+			path = SegmentView/Classes/Tools;
+			sourceTree = "<group>";
+		};
+		6F6BB57FACB20583670050207504F7AD /* PasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				4CA27E2190930993A998EB2EE01E5258 /* SegmentForgetPasswordView.h */,
+				506FF130EA7E1487A4ECFE9E5B402807 /* SegmentForgetPasswordView.m */,
+			);
+			name = PasswordView;
+			path = SegmentView/Classes/PasswordView;
+			sourceTree = "<group>";
+		};
+		736A87359582B4F7E6EB5E9262757BB2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5B0417E82BE0D7BB25765362256B3085 /* LICENSE */,
+				E30799B0F196A47BCA0A385F0E8E3117 /* README.md */,
+				6A5AA81BFB07A050B9CBAD8318D8058D /* SegmentView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		757971B1CE78F39C54D6582C582E11A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71DD1E8751769F0D40C099EF90A1A04B /* CTMediator.modulemap */,
+				CC55F31B126A23CD26BD0A11952FDB44 /* CTMediator.xcconfig */,
+				25EB0BC01A98AABB2CBADC4E2C4D1E93 /* CTMediator-dummy.m */,
+				C409E8415B1C3F8B4B3EE6B06CABDE75 /* CTMediator-Info.plist */,
+				272D73DB79D60EDE7E64141B0EF1E8E3 /* CTMediator-prefix.pch */,
+				E0B78CC21F4D67C97BEBACDEAF569F99 /* CTMediator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		77205C9DFB8A5FFEBE4F38AC3AC29534 /* ProtocolView */ = {
+			isa = PBXGroup;
+			children = (
+				A316C943C70B43B0247DD9C3BD3BD9A5 /* SegmentProtocolView.h */,
+				B26069749E91235258965FD024F969D4 /* SegmentProtocolView.m */,
+			);
+			name = ProtocolView;
+			path = SegmentView/Classes/ProtocolView;
+			sourceTree = "<group>";
+		};
+		7A595375B3C1B93383C7A849C5C7FB11 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0366FA421457F52CA0E048D889F8AC91 /* SegmentView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9BF7CA1FD48E91CD743F1214984312C4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				75B4A9C41C9F14616C65A3408DC6BDE8 /* SegmentMainView.h */,
+				79A42C0A6FA140886115CEB6AFAEA246 /* SegmentMainView.m */,
+			);
+			name = Main;
+			path = SegmentView/Classes/Main;
+			sourceTree = "<group>";
+		};
+		9EA816E35862CA9AC5D8A4347EC1E6A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4253993D34C2FA8A9D1DF261569E6F59 /* Masonry.modulemap */,
+				A55F145ADAE03970B65A6A0D5D8B62B6 /* Masonry.xcconfig */,
+				23AD3FECC2644CCBCBC11879654E6F45 /* Masonry-dummy.m */,
+				70620B3FE74D789BE4420105C4466F60 /* Masonry-Info.plist */,
+				F3E1E6B5C003792460F6F83832ADD616 /* Masonry-prefix.pch */,
+				81225ED7517147ADAB7DE6239425288A /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		A25A9657EE586D27E4469F9463BC1511 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				9EE4352121F464678D559B0A955515F0 /* CTMediator.h */,
+				9EFDA729D66E56F262B520DFC259FE9C /* CTMediator.m */,
+				757971B1CE78F39C54D6582C582E11A0 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		B675A3BDFE77F0A0BDF9A8D8421568B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD7424F35C17848E68F34E7090C38765 /* CTMediatoKit.framework */,
+				5D9AF95824AB415F27284BCACE8078A1 /* CTMediator.framework */,
+				B1C6A4F0A6B67F29E33BD710CCB43AA3 /* Masonry.framework */,
+				4F665B9A3B448459C08929E2AC9C8B22 /* SLCategory.framework */,
+				1520611A917F353CFBCADD5A4549ED9D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B82D7AC5E390BE933F110E51B6CB665E /* Lgoin */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD7168AF8181053E319E792716A9AA /* SegmentLoginView.h */,
+				BAAF5242BC19CD7437D01D75D7C2E954 /* SegmentLoginView.m */,
+			);
+			name = Lgoin;
+			path = SegmentView/Classes/Lgoin;
+			sourceTree = "<group>";
+		};
+		BAE996D4D6D7464797C61FB62F586179 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				69F86004DC04A17BDB1EA5CC79B702BE /* SegmentAnimationManager.h */,
+				F98AE561FF2B4228BC075D15675FA0E0 /* SegmentAnimationManager.m */,
+				4A036DBD646CEF0EDEC2F4B352019672 /* SegmentButton.h */,
+				1C746FDE146E003C624F2302E99036D9 /* SegmentButton.m */,
+				E8A8A530F6B0DBA9B4D416719CFAA287 /* SegmentCheckBoxGroup.h */,
+				80505D3E3DFF01B89B5F680BE5DDFA4B /* SegmentCheckBoxGroup.m */,
+				E34AD663502CA980AEDBE284F78F9C0B /* SegmentCheckBoxManager.h */,
+				9CE9A182F1701B4BAB6E0C76F0B83BAD /* SegmentCheckBoxManager.m */,
+				A0BEFC78724D0BBEA8726FEA09DD6AB8 /* SegmentPathManager.h */,
+				B61550713E61519A7B9F79F8C5B995F0 /* SegmentPathManager.m */,
+				78C5087C25CB1193DD7796A108EFD1CC /* SegmentTextField.h */,
+				CDF3F03066C31B7F2C3047CBD1F0720F /* SegmentTextField.m */,
+			);
+			name = Widget;
+			path = SegmentView/Classes/Widget;
+			sourceTree = "<group>";
+		};
+		BF9701F2EC437211D5EFEC30B0AA8A53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20F74ABAE0EF7474C5891E1AF1DE3EED /* Pods-SegmentView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CE9D830328E1A11F5EE41A68C9795E66 /* BindPhone */ = {
+			isa = PBXGroup;
+			children = (
+				FA6B528FBCDA5B20FDA758A135C6D485 /* SegmentBindPhoneView.h */,
+				A65525369B0B6FE679F355CF050E1BBF /* SegmentBindPhoneView.m */,
+			);
+			name = BindPhone;
+			path = SegmentView/Classes/BindPhone;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				66497296C010547079B02F849F9D2913 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0423B2B03AF6B332D09BA19EEC6620D4 /* Products */,
-				29BEACFD29864041671EEF71FAC9E00A /* Targets Support Files */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7A595375B3C1B93383C7A849C5C7FB11 /* Development Pods */,
+				B675A3BDFE77F0A0BDF9A8D8421568B2 /* Frameworks */,
+				DA98A9CEE2A8DC4711AD115E83C08CCD /* Pods */,
+				F5A1A49AF323163E4389DDD813F9E09D /* Products */,
+				BF9701F2EC437211D5EFEC30B0AA8A53 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		CF9150B28FE954B898A871B2ABE3B582 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				8269C5679DD57092376B11D4F98AD071 /* BaseSegmentView.h */,
+				1D35790A9DE21C446BD8C39CE01E0190 /* BaseSegmentView.m */,
+				7A56102DB187E8FC91C0FAA4551167F2 /* SegmentConfigMacro.h */,
+				0663AFEA913910E3F8BB5752A9BC8CB9 /* SegmentHeader.h */,
 			);
-			name = Frameworks;
+			name = Base;
+			path = SegmentView/Classes/Base;
+			sourceTree = "<group>";
+		};
+		D0A0C27D0FB84DF1004D673C90BF6511 /* CustomService */ = {
+			isa = PBXGroup;
+			children = (
+				82C9EE6F98F9F13A324DF53B7E17A23C /* SegmentGameServiceView.h */,
+				68C6D4B7EB0C0E9C5438106807584ED3 /* SegmentGameServiceView.m */,
+			);
+			name = CustomService;
+			path = SegmentView/Classes/CustomService;
+			sourceTree = "<group>";
+		};
+		D0BB93986B3571D5A582A23A5BEADA8C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				5D5D1DD28B0AD01439C64CBFDB080EF9 /* MASCompositeConstraint.h */,
+				51542619E408253CD6FCBA6386795708 /* MASCompositeConstraint.m */,
+				89E6C95E779996F62C3E9A65BB2D9534 /* MASConstraint.h */,
+				CEC3F051DC7AF8412A541AFE72C94601 /* MASConstraint.m */,
+				2F8EE1F1C8576B09827B2657C83B6E0F /* MASConstraint+Private.h */,
+				C746D6DA50CDAD49C325D4CD582CE943 /* MASConstraintMaker.h */,
+				586EC54584881EE83C3F92033C3F3F9F /* MASConstraintMaker.m */,
+				91F8F8AA1C8A8E1029B7E14E5223FC00 /* MASLayoutConstraint.h */,
+				A2EB3EE178E6B00D253541F0D9B10E81 /* MASLayoutConstraint.m */,
+				86BABD9F84355FFEB7E6102ED0782A47 /* Masonry.h */,
+				875591FE714760C4D59793ABDF8C5485 /* MASUtilities.h */,
+				DEE15F64019AC26CC71EAE39B4CB5005 /* MASViewAttribute.h */,
+				A444FF49739411ED2BA630E3839AF72D /* MASViewAttribute.m */,
+				E5ECA36ACC2579751028BB68519C2C95 /* MASViewConstraint.h */,
+				DBE58C56563A19B0E48F27B0AFE146E3 /* MASViewConstraint.m */,
+				505C4572E7855313D342DBFF8A2BD992 /* NSArray+MASAdditions.h */,
+				E366B23003257FA16DC1D8B0BEFE0CE2 /* NSArray+MASAdditions.m */,
+				D40AA9C03A040D41D80EF4DC28D682EF /* NSArray+MASShorthandAdditions.h */,
+				040A36A857717DBFBF254A194DE9FEE9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				EDD1771CA5BB53E8DDBD1EF97B322508 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D0F2618FFECC312D102BEA4759C43CDB /* View+MASAdditions.h */,
+				27C27F40CCBC63E579B89C96803540BC /* View+MASAdditions.m */,
+				DF8E5878647FB6D3073A04B928136DEB /* View+MASShorthandAdditions.h */,
+				6C4DBC3E3D7C090D3113E52282C91ECD /* ViewController+MASAdditions.h */,
+				381DFAF011D64E6BF0AA91A324E021A6 /* ViewController+MASAdditions.m */,
+				9EA816E35862CA9AC5D8A4347EC1E6A1 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DA98A9CEE2A8DC4711AD115E83C08CCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E07863900C65D3D93EF77DE0EE597C4F /* CTMediatoKit */,
+				A25A9657EE586D27E4469F9463BC1511 /* CTMediator */,
+				D0BB93986B3571D5A582A23A5BEADA8C /* Masonry */,
+				1302E46FB4F0FE828437DCF425FB1794 /* SLCategory */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB3DFBA8E1CCA7855BD0B0018B498322 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA3899379088A0A3C14DC9F1656C6A56 /* CTMediatoKit.modulemap */,
+				CFD3D69C94564C545A684B52F01C7605 /* CTMediatoKit.xcconfig */,
+				491493F8958128B3777EC9E86E76714C /* CTMediatoKit-dummy.m */,
+				799B7D634E05D039CDC1EBCAB765795B /* CTMediatoKit-Info.plist */,
+				CED2423C3DEB759B5D8F6231EF9E6BEE /* CTMediatoKit-prefix.pch */,
+				F49EDD4E95A2EA3F5584F1C7E8B3D051 /* CTMediatoKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediatoKit";
+			sourceTree = "<group>";
+		};
+		DDEA68A263ECDC417987FEB7E02C629F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				387C3C0AD3D35C10F979FD31D68C2431 /* SegmentView.modulemap */,
+				E422F7D60C1CD6BE6127B955AD6A96D0 /* SegmentView.xcconfig */,
+				2FF7AFD68E2088A9229A2231C5F33635 /* SegmentView-dummy.m */,
+				9678B5C383DDC9582955443DB919FBEF /* SegmentView-Info.plist */,
+				CDD2A274022A804D2F4A98EE4F3D43D7 /* SegmentView-prefix.pch */,
+				889869FA33898BF6B4CEBDF6DA022834 /* SegmentView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SegmentView";
+			sourceTree = "<group>";
+		};
+		E07863900C65D3D93EF77DE0EE597C4F /* CTMediatoKit */ = {
+			isa = PBXGroup;
+			children = (
+				6F705A610AC853A709C57304F45CE259 /* CTMediaAFNetworkReachbilityManager.h */,
+				98440B983931A36188B32302D918FD9B /* CTMediaAFNetworkReachbilityManager.m */,
+				92A40E33DF16079F36A955FEC72C6465 /* CTMediator+AppStore.h */,
+				75CC63684C1DEB3FBB14CEE1F668EDC4 /* CTMediator+AppStore.m */,
+				C09CA90F1BCB7FA0BBCF43046DC458C0 /* CTMediator+Config.h */,
+				BE7F4E945F60BC3FFD1085619B8B03F7 /* CTMediator+Config.m */,
+				12B1BD43A63759AD123E46B420C5AE6A /* CTMediator+RequestAPI.h */,
+				17F1C55190EC96B4BF70630ADAC2B589 /* CTMediator+RequestAPI.m */,
+				65FF3E8E8DE10FF07C8DF71E1A89A0C0 /* CTMediator+SegmentViewHud.h */,
+				E4ABE4C4A3E9D4CF3AFFD6CEA0DC7314 /* CTMediator+SegmentViewHud.m */,
+				9F58776BC87A7D005B6AD028C651C5D2 /* CTMediator+ViewManager.h */,
+				56A11978AD1E94A52B830A9FD911506D /* CTMediator+ViewManager.m */,
+				CA5D61E492DA2EB65A2B6EA7163A332B /* CTMediatorHeader.h */,
+				DB3DFBA8E1CCA7855BD0B0018B498322 /* Support Files */,
+			);
+			name = CTMediatoKit;
+			path = CTMediatoKit;
+			sourceTree = "<group>";
+		};
+		F5A1A49AF323163E4389DDD813F9E09D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668848BBDE132F00FC8E7608057F5341 /* CTMediatoKit.framework */,
+				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				D8744705D0DB92A0AD753868E5FB2255 /* Pods_SegmentView_Example.framework */,
+				8AE45FFF07C14C786468DA336258D0D2 /* SegmentView.framework */,
+				ADD01C0F48A4751CBEA3EE9D652B01D5 /* SLCategory.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3178CC0B56D5D75FB1729753FCAC25B0 /* Headers */ = {
+		12CAB6E4CEAE2B516E69D296083C9DB0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26FE66C0156B59E5C19D3E37331851A2 /* Pods-SegmentView_Example-umbrella.h in Headers */,
+				BA8F2DDAF32D4B0DC5B7AC0079A3D6D1 /* CTMediator-umbrella.h in Headers */,
+				9B20F528DCF58380C3D01567FCBD4C70 /* CTMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FAB41D9BF3A9F7EAE284B03533FA1A2 /* Headers */ = {
+		52DC2FD15E51AF0036C14038B1F35C4A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3F8A5829F7A6A5983EC7401EB907F0 /* Pods-SegmentView_Tests-umbrella.h in Headers */,
+				CBDE8D26DA5307D188249DEB54D1DE74 /* CTMediaAFNetworkReachbilityManager.h in Headers */,
+				DE9BE8A5CB04979311E902A6FF2A1AD8 /* CTMediatoKit-umbrella.h in Headers */,
+				191744225F88342959253A45EF6E150B /* CTMediator+AppStore.h in Headers */,
+				0DC608C27E8FA7A6A719C15F10277B2D /* CTMediator+Config.h in Headers */,
+				4133E523FA6048D25FE5C4FEE4AF5AD5 /* CTMediator+RequestAPI.h in Headers */,
+				AFB1E2BA9DCD80C443D1D09894E124B9 /* CTMediator+SegmentViewHud.h in Headers */,
+				36EAB655EFF6C60016420A8619CE9BFA /* CTMediator+ViewManager.h in Headers */,
+				5553E7690FE1110761C857111905C60F /* CTMediatorHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80E047075C10AAAB80BC353004E4CC7A /* Headers */ = {
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB0C133819420ABF43185383D3B5608F /* SegmentView-umbrella.h in Headers */,
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90B69BA8B93DA7F90508246275120C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC6D113B5BD44312AF7EB89A05F12F5 /* Pods-SegmentView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6BF1FCFB89009BC8AD786E382A4166 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79860AB3D23277F79474634139B84054 /* BaseSegmentView.h in Headers */,
+				CF8FCA5B1E31A786335BD8D9CC0EF1D9 /* SegmentAnimationManager.h in Headers */,
+				F8824625050396F2F4413C20C15B521B /* SegmentAvoidCrashDictionary.h in Headers */,
+				F1188790D63D65690D8CE18A9E2B089B /* SegmentBindPhoneView.h in Headers */,
+				CDB1751CF53ECA48BB49BA3507B8698B /* SegmentBundlePlistManager.h in Headers */,
+				FDCC552419271E88FCF1E5787C4469AD /* SegmentButton.h in Headers */,
+				27358C3E4109849022A698D30EE0CE27 /* SegmentCheckBoxGroup.h in Headers */,
+				B6DC802776E1D010F1848DD8B922C5EF /* SegmentCheckBoxManager.h in Headers */,
+				F45FA83A8A3BE00D17A89BA0471B392E /* SegmentConfigMacro.h in Headers */,
+				647B0501619234F93D872C2952CCA458 /* SegmentFastRegisterView.h in Headers */,
+				CF065DF0FDE35FEA47D2226ED7980DBA /* SegmentForgetPasswordView.h in Headers */,
+				0882C20662223FE58930E06E0C32436D /* SegmentGameServiceView.h in Headers */,
+				54886C6D3986476FB12332516D3212A5 /* SegmentHeader.h in Headers */,
+				1DF7273DDFC134C0167842D0614FCE19 /* SegmentLoginView.h in Headers */,
+				EC0E449B5319AC0CDD3E848229BC1E8F /* SegmentMainView.h in Headers */,
+				24AC9D42FA2C47C56A83AF998B5B6766 /* SegmentPathManager.h in Headers */,
+				E697B517931EA49C29E6110E6B8FA90E /* SegmentProtocolView.h in Headers */,
+				8A8ACBF44829C5F0A139B7EFDFB38E28 /* SegmentRegisterView.h in Headers */,
+				66E67BA9B536E3E0BF1C5504830C98E6 /* SegmentTextField.h in Headers */,
+				AB1308BCF04D3D8ECD908C04D9011A77 /* SegmentView-umbrella.h in Headers */,
+				8D031E05902EC9A7E90E624D3ADB98CA /* Target_SegmentViewHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BC1C7682A7C9C388DD9AB431646FA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BB7518BEA71C9DDB82BB8DED7ACA76 /* CategoryHeader.h in Headers */,
+				DE6679F49C1230421158BF96048285D1 /* CategoryMacro.h in Headers */,
+				6806B3E7FBB8F94B52BE9538F427377A /* NSData+Segment.h in Headers */,
+				890BBC1EBD01D29D376260F08D434C0D /* NSDictionary+Segment.h in Headers */,
+				5F944FD6DDC7F9C86A449377B750FB1E /* NSString+Segment.h in Headers */,
+				F537686D8AB060FBF4A9F54304D1E9DD /* SLCategory-umbrella.h in Headers */,
+				2819E5182DD2E1105EF8034E69D06D44 /* UIImageView+Segment.h in Headers */,
+				8DB7FA335E8387205949B28DE4165CCD /* UILabel+Segment.h in Headers */,
+				3C36B61E82FD0FEEBB8225B8C33FE687 /* UITextField+Segment.h in Headers */,
+				505086A7D590B5FB0444CA98F11452A4 /* UIView+Segment.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6EBB9F41F659463E29D2A207964C32D3 /* Pods-SegmentView_Example */ = {
+		20408C44C9A29D066BEED2988197D613 /* Pods-SegmentView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC8246850E844CAB56B0B429952EAF50 /* Build configuration list for PBXNativeTarget "Pods-SegmentView_Example" */;
+			buildConfigurationList = 81678AA05AB2F29E7448A79789A4D908 /* Build configuration list for PBXNativeTarget "Pods-SegmentView_Example" */;
 			buildPhases = (
-				3178CC0B56D5D75FB1729753FCAC25B0 /* Headers */,
-				39CF8F36601136DA2857D7CF45E10753 /* Sources */,
-				8AF63B01C6B08DDD78541ABC5A7B219B /* Frameworks */,
-				0519098D385B28002E45E3A15FA35EBC /* Resources */,
+				D90B69BA8B93DA7F90508246275120C5 /* Headers */,
+				DF1A6089FA0CD36AD7F46B7A00887B74 /* Sources */,
+				8C0A5BAA547EC7969DE84CF667CD6911 /* Frameworks */,
+				B450570D0CDDFE1BEE4FAE4AD2A9A6AA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A74C8BF1C2F9E22A79DDA56B011CD9F /* PBXTargetDependency */,
+				B2E698637CE4FD4EDE0786FC48B15764 /* PBXTargetDependency */,
+				E715FAF1667A1E56FF884B8A53E144F1 /* PBXTargetDependency */,
+				490901F037B84EB17290D28BD31DDB5A /* PBXTargetDependency */,
+				D0DDFA0375FBD46570E1655B5C719F62 /* PBXTargetDependency */,
+				0825E5034F21AA1B8F24F579EF28D98F /* PBXTargetDependency */,
 			);
 			name = "Pods-SegmentView_Example";
 			productName = "Pods-SegmentView_Example";
-			productReference = 5EEE944F7BACCA690236640F81793389 /* Pods_SegmentView_Example.framework */;
+			productReference = D8744705D0DB92A0AD753868E5FB2255 /* Pods_SegmentView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		79DD38B0F7160FF75DD80478B8BA2293 /* SegmentView */ = {
+		421C41E0F2A62C5817CFB1CEC0E9C43F /* SegmentView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B50E4B0C1C0E3BC580947F8C6FE5665 /* Build configuration list for PBXNativeTarget "SegmentView" */;
+			buildConfigurationList = 1804DE412151D9ED129320A5D8FA9763 /* Build configuration list for PBXNativeTarget "SegmentView" */;
 			buildPhases = (
-				80E047075C10AAAB80BC353004E4CC7A /* Headers */,
-				2B82AD767AF36154E052A4EF1019F72C /* Sources */,
-				9DD826C72593574FEACC3058C64C1E7E /* Frameworks */,
-				FF5502CE5AAADC6EADF9B95C7487ACAE /* Resources */,
+				EC6BF1FCFB89009BC8AD786E382A4166 /* Headers */,
+				F6F0C1009AE0E27F06F048370BEA7DC9 /* Sources */,
+				16FB3040CA3609703C9CAE97E92F14D7 /* Frameworks */,
+				E4E3F9CC9CCCAFDC153EF0D7D4065C13 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2941E7496BC78C80D9C5D3E99783CE80 /* PBXTargetDependency */,
+				996431A9B78D02FE8FF8CF6C3935B0C1 /* PBXTargetDependency */,
+				F9AF811D8ED4A58BAA1E3AFBD962E108 /* PBXTargetDependency */,
+				41E3F5E5031933EF2302BE549D1E015B /* PBXTargetDependency */,
 			);
 			name = SegmentView;
 			productName = SegmentView;
-			productReference = 3CCFF3B928470B14AB6926538C03AF78 /* SegmentView.framework */;
+			productReference = 8AE45FFF07C14C786468DA336258D0D2 /* SegmentView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		89BC4477BFA311E6F095331D7BA72E5A /* Pods-SegmentView_Tests */ = {
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94799B82EBE26BA9952BFC0FF937AFFF /* Build configuration list for PBXNativeTarget "Pods-SegmentView_Tests" */;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				6FAB41D9BF3A9F7EAE284B03533FA1A2 /* Headers */,
-				C13CE7D6539D16ECB7591E707755C88F /* Sources */,
-				98FDC966879B370D514C42EABA74B070 /* Frameworks */,
-				B229F89B7183667B7A123F01AC08C13E /* Resources */,
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				16DB3F94204551718D2AC9DDE47F893C /* PBXTargetDependency */,
 			);
-			name = "Pods-SegmentView_Tests";
-			productName = "Pods-SegmentView_Tests";
-			productReference = 50C649FE3859060151DD70FA5B1ABF96 /* Pods_SegmentView_Tests.framework */;
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4C0A402A17D68BB3A9D8E5CCD4FDC3 /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				12CAB6E4CEAE2B516E69D296083C9DB0 /* Headers */,
+				2D862B8A78A73BF520FCF0D06677186D /* Sources */,
+				12EEC27E4762739EBCA078F3223F49D7 /* Frameworks */,
+				09C8F2B4151DAD8213E7DDC55AFFCECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B08082ED9CF64A90855FFCEA869209AB /* SLCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 771074C7DC32053764E1E377CDA93033 /* Build configuration list for PBXNativeTarget "SLCategory" */;
+			buildPhases = (
+				F0BC1C7682A7C9C388DD9AB431646FA7 /* Headers */,
+				89CDA6E2C570715D8E07063337391F8F /* Sources */,
+				BE88B34B064D1915AE39BFEF17433BC4 /* Frameworks */,
+				188371045523CAC7F93C378D7463BF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLCategory;
+			productName = SLCategory;
+			productReference = ADD01C0F48A4751CBEA3EE9D652B01D5 /* SLCategory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2E2C0A088897C6F4FC7DD40BC71E93E /* CTMediatoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4E94B475A2545C2F70C206D09DEBEE /* Build configuration list for PBXNativeTarget "CTMediatoKit" */;
+			buildPhases = (
+				52DC2FD15E51AF0036C14038B1F35C4A /* Headers */,
+				6A7E61FA1EA2E7404F5798B6042ABE6A /* Sources */,
+				9522F2DC21FBCBFBA8C9F27ED5DC80BA /* Frameworks */,
+				7383395CD60606C1067062D945137928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC9036CA6A9AC47E4FE5848CFA82001 /* PBXTargetDependency */,
+			);
+			name = CTMediatoKit;
+			productName = CTMediatoKit;
+			productReference = 668848BBDE132F00FC8E7608057F5341 /* CTMediatoKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -330,33 +1062,57 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0423B2B03AF6B332D09BA19EEC6620D4 /* Products */;
+			productRefGroup = F5A1A49AF323163E4389DDD813F9E09D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EBB9F41F659463E29D2A207964C32D3 /* Pods-SegmentView_Example */,
-				89BC4477BFA311E6F095331D7BA72E5A /* Pods-SegmentView_Tests */,
-				79DD38B0F7160FF75DD80478B8BA2293 /* SegmentView */,
+				E2E2C0A088897C6F4FC7DD40BC71E93E /* CTMediatoKit */,
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				20408C44C9A29D066BEED2988197D613 /* Pods-SegmentView_Example */,
+				421C41E0F2A62C5817CFB1CEC0E9C43F /* SegmentView */,
+				B08082ED9CF64A90855FFCEA869209AB /* SLCategory */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0519098D385B28002E45E3A15FA35EBC /* Resources */ = {
+		09C8F2B4151DAD8213E7DDC55AFFCECE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B229F89B7183667B7A123F01AC08C13E /* Resources */ = {
+		188371045523CAC7F93C378D7463BF2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF5502CE5AAADC6EADF9B95C7487ACAE /* Resources */ = {
+		7383395CD60606C1067062D945137928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B450570D0CDDFE1BEE4FAE4AD2A9A6AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E3F9CC9CCCAFDC153EF0D7D4065C13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,86 +1122,165 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B82AD767AF36154E052A4EF1019F72C /* Sources */ = {
+		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88DA1FE32CBC3E23934B96A90C58C3DE /* ReplaceMe.m in Sources */,
-				99009971E1DB45C94F02D7DD3A03CEE0 /* SegmentView-dummy.m in Sources */,
+				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
+				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
+				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
+				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
+				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
+				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
+				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
+				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
+				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39CF8F36601136DA2857D7CF45E10753 /* Sources */ = {
+		2D862B8A78A73BF520FCF0D06677186D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A218AF77FBD168AA8E5CBD8B1BCC8063 /* Pods-SegmentView_Example-dummy.m in Sources */,
+				E88C9C01651AB9844A3CE8C2181E0621 /* CTMediator-dummy.m in Sources */,
+				B34AC64DD013CA0EFF20A723F87B367E /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C13CE7D6539D16ECB7591E707755C88F /* Sources */ = {
+		6A7E61FA1EA2E7404F5798B6042ABE6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9E4A562AFCFA5787DA7A0A30B59C11E /* Pods-SegmentView_Tests-dummy.m in Sources */,
+				861BBE677E02BED5A903153AB51B1237 /* CTMediaAFNetworkReachbilityManager.m in Sources */,
+				A831A0803DB2D14E28846500F9350683 /* CTMediatoKit-dummy.m in Sources */,
+				B08C4BF0AF36C4243D63176B7585687C /* CTMediator+AppStore.m in Sources */,
+				26704B327F3DEB02478B174F14FDAA7C /* CTMediator+Config.m in Sources */,
+				6F77C0D29016118B83C8C0EE8505F228 /* CTMediator+RequestAPI.m in Sources */,
+				1E9F327B42931BB82EB1BBD1EA174A2D /* CTMediator+SegmentViewHud.m in Sources */,
+				A464F6421C23B4B9C20ADA384AD3DE47 /* CTMediator+ViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89CDA6E2C570715D8E07063337391F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D341B131E3642F4F9BAE1D8E5FA21AA /* NSData+Segment.m in Sources */,
+				975E808CBA08793BFEBC3CC590ED63C2 /* NSDictionary+Segment.m in Sources */,
+				FA9D14E559BD5D59D20E29A3F296AE90 /* NSString+Segment.m in Sources */,
+				FB574754BB7B14C170529727974CDB8E /* SLCategory-dummy.m in Sources */,
+				0AAFB97958435F0519EACA098D26D5FC /* UIImageView+Segment.m in Sources */,
+				61074613253AFCC7BFA3C9BAF2B257F3 /* UILabel+Segment.m in Sources */,
+				33BD45B78DF5E6DBA38C835BEE73C88C /* UITextField+Segment.m in Sources */,
+				4D89B697B8E952BAAC1A9C508AD3D187 /* UIView+Segment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1A6089FA0CD36AD7F46B7A00887B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3307CBA59D8ACE98BBC4D1AABFF578B2 /* Pods-SegmentView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F0C1009AE0E27F06F048370BEA7DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C12CCFCF84EF7F036681A3A7ADBEA5 /* BaseSegmentView.m in Sources */,
+				06FB563C7337E9E79ED678D183E10BC8 /* SegmentAnimationManager.m in Sources */,
+				41AC4BB0DF2BC625476A42177AC67B34 /* SegmentAvoidCrashDictionary.m in Sources */,
+				D56C8E6110D4B7D2E0478A330CA91659 /* SegmentBindPhoneView.m in Sources */,
+				3451065EA681452A8B6A6EEB171E3F36 /* SegmentBundlePlistManager.m in Sources */,
+				6CDE212884687D2C8BD4CAA8E534E0BE /* SegmentButton.m in Sources */,
+				CD1CB35F30F08672879B5475A4EEC63B /* SegmentCheckBoxGroup.m in Sources */,
+				8FADD2C71BA3627CF530D9BE50144AFD /* SegmentCheckBoxManager.m in Sources */,
+				AA53751AF36F2DA365A1AF49DF9DA024 /* SegmentFastRegisterView.m in Sources */,
+				BFC6506BB46AC103EC502FFDDBFE941C /* SegmentForgetPasswordView.m in Sources */,
+				978A1ACFF1763772A7954770038995C2 /* SegmentGameServiceView.m in Sources */,
+				B3D603814705BA54A37C396761B0FE58 /* SegmentLoginView.m in Sources */,
+				2FAFCB5FCC18F35F8698F852D021D8B1 /* SegmentMainView.m in Sources */,
+				8A98E196E8DBC579CAE477A90323F2AC /* SegmentPathManager.m in Sources */,
+				CC8F78A4E19D7ADF65D4E586D66D6BAF /* SegmentProtocolView.m in Sources */,
+				257FA4C5BDC701E42893B946F0CB6DBE /* SegmentRegisterView.m in Sources */,
+				544EA790313710B663336E19F72035C9 /* SegmentTextField.m in Sources */,
+				CE02070E8A82157576D78842C29D0419 /* SegmentView-dummy.m in Sources */,
+				5FBB4E8454ED9B7333AB517E194771A5 /* Target_SegmentViewHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16DB3F94204551718D2AC9DDE47F893C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SegmentView_Example";
-			target = 6EBB9F41F659463E29D2A207964C32D3 /* Pods-SegmentView_Example */;
-			targetProxy = DFEC808E0670A0E065414D7307D11389 /* PBXContainerItemProxy */;
-		};
-		8A74C8BF1C2F9E22A79DDA56B011CD9F /* PBXTargetDependency */ = {
+		0825E5034F21AA1B8F24F579EF28D98F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SegmentView;
-			target = 79DD38B0F7160FF75DD80478B8BA2293 /* SegmentView */;
-			targetProxy = 0517FC09FE775DD022010BECF4093B2A /* PBXContainerItemProxy */;
+			target = 421C41E0F2A62C5817CFB1CEC0E9C43F /* SegmentView */;
+			targetProxy = C8AC314B8284B1D54981295432762705 /* PBXContainerItemProxy */;
+		};
+		2941E7496BC78C80D9C5D3E99783CE80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediatoKit;
+			target = E2E2C0A088897C6F4FC7DD40BC71E93E /* CTMediatoKit */;
+			targetProxy = C505F035EEECD99EAD68DA444B890E0D /* PBXContainerItemProxy */;
+		};
+		41E3F5E5031933EF2302BE549D1E015B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SLCategory;
+			target = B08082ED9CF64A90855FFCEA869209AB /* SLCategory */;
+			targetProxy = D513D33C5B474BE004AFC5E32BF44A6A /* PBXContainerItemProxy */;
+		};
+		490901F037B84EB17290D28BD31DDB5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = D30AB1FB1540C97444CF983E75086F48 /* PBXContainerItemProxy */;
+		};
+		996431A9B78D02FE8FF8CF6C3935B0C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 0CFDBF9134FAAA05D837E5A898694CF2 /* PBXContainerItemProxy */;
+		};
+		B2E698637CE4FD4EDE0786FC48B15764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediatoKit;
+			target = E2E2C0A088897C6F4FC7DD40BC71E93E /* CTMediatoKit */;
+			targetProxy = AC0DE8E230965DFBFE26D12998271AEF /* PBXContainerItemProxy */;
+		};
+		CAC9036CA6A9AC47E4FE5848CFA82001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 8D7C9CD4E5A399D7ACE1446F2A530A29 /* PBXContainerItemProxy */;
+		};
+		D0DDFA0375FBD46570E1655B5C719F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SLCategory;
+			target = B08082ED9CF64A90855FFCEA869209AB /* SLCategory */;
+			targetProxy = 28D58A78408F4823CCDC67265A8402BB /* PBXContainerItemProxy */;
+		};
+		E715FAF1667A1E56FF884B8A53E144F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 4601904506A6C1176FB2F1D7E822DECD /* PBXContainerItemProxy */;
+		};
+		F9AF811D8ED4A58BAA1E3AFBD962E108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 15EEB3029BEF332B3CB1E9280B59A2DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		098DF62F247572DB54930DB140E21797 /* Release */ = {
+		45485C8BDE7B86D5EB6B14C5432F1987 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19B482C2983E663B53FA034A12B5D7B1 /* Pods-SegmentView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SegmentView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SegmentView_Example/Pods-SegmentView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0EEA5ADD4551EDCDB985FA283B17F91F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A655903BB11F99581C647C1F773D1AA4 /* SegmentView.xcconfig */;
+			baseConfigurationReference = CFD3D69C94564C545A684B52F01C7605 /* CTMediatoKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -456,14 +1291,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SegmentView/SegmentView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SegmentView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediatoKit/CTMediatoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediatoKit/CTMediatoKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SegmentView/SegmentView.modulemap";
-				PRODUCT_MODULE_NAME = SegmentView;
-				PRODUCT_NAME = SegmentView;
+				MODULEMAP_FILE = "Target Support Files/CTMediatoKit/CTMediatoKit.modulemap";
+				PRODUCT_MODULE_NAME = CTMediatoKit;
+				PRODUCT_NAME = CTMediatoKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -475,41 +1310,7 @@
 			};
 			name = Release;
 		};
-		1029418793344A94A0FF0E72A79615AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A7306446AE32EC42E2162ED3019EB2A /* Pods-SegmentView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SegmentView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SegmentView_Tests/Pods-SegmentView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -541,8 +1342,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -571,7 +1370,39 @@
 			};
 			name = Release;
 		};
-		62780A8B4B44B3DFA98345371325579F /* Debug */ = {
+		527D6664223B803E9C7307F58E3CA12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55F145ADAE03970B65A6A0D5D8B62B6 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -603,8 +1434,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -637,9 +1466,43 @@
 			};
 			name = Debug;
 		};
-		7D6B5AA5225C65E70A885EAC31483016 /* Debug */ = {
+		87193519ABBD24171FDE4BF6F41AE183 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A655903BB11F99581C647C1F773D1AA4 /* SegmentView.xcconfig */;
+			baseConfigurationReference = 811DE9A85845046938428E807145AB8A /* Pods-SegmentView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentView_Example/Pods-SegmentView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmentView_Example/Pods-SegmentView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		884E938B9F0BCF749BD1B40E51BB98C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E422F7D60C1CD6BE6127B955AD6A96D0 /* SegmentView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -651,9 +1514,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/SegmentView/SegmentView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SegmentView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/SegmentView/SegmentView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SegmentView/SegmentView.modulemap";
 				PRODUCT_MODULE_NAME = SegmentView;
@@ -668,9 +1531,103 @@
 			};
 			name = Debug;
 		};
-		8FED7C3F4F6A056BB0004B5F17757CE2 /* Debug */ = {
+		8C65F7CC9708EE0690525E4800598E8E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D008864D40F2F5D663DF5DB799EE440 /* Pods-SegmentView_Example.debug.xcconfig */;
+			baseConfigurationReference = A55F145ADAE03970B65A6A0D5D8B62B6 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0806599879B961D6B85213D770DFA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0F13FE72FC5FCA65AC9E9174B28168 /* SLCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLCategory/SLCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLCategory/SLCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLCategory/SLCategory.modulemap";
+				PRODUCT_MODULE_NAME = SLCategory;
+				PRODUCT_NAME = SLCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7017AE4BA00EB45186AF86A01D402A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0F13FE72FC5FCA65AC9E9174B28168 /* SLCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLCategory/SLCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLCategory/SLCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLCategory/SLCategory.modulemap";
+				PRODUCT_MODULE_NAME = SLCategory;
+				PRODUCT_NAME = SLCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1CE07D78A49E0ECDC2C96364B8793D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2010EA219410B32AD7A5759C0978B6 /* Pods-SegmentView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -682,7 +1639,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SegmentView_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmentView_Example/Pods-SegmentView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -701,11 +1658,10 @@
 			};
 			name = Debug;
 		};
-		A70E146DB87016138B091212AA01788E /* Debug */ = {
+		DB312A21F4735FFA22A046FEA3F3F176 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68CBF9A2D699C7E773E308891E8E8F05 /* Pods-SegmentView_Tests.debug.xcconfig */;
+			baseConfigurationReference = CC55F31B126A23CD26BD0A11952FDB44 /* CTMediator.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -715,19 +1671,113 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SegmentView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SegmentView_Tests/Pods-SegmentView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF596DB6889CEB7D6D29E64760F8F656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC55F31B126A23CD26BD0A11952FDB44 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA7990CB0F4CC293993CEB1AD399933C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E422F7D60C1CD6BE6127B955AD6A96D0 /* SegmentView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SegmentView/SegmentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SegmentView/SegmentView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SegmentView/SegmentView.modulemap";
+				PRODUCT_MODULE_NAME = SegmentView;
+				PRODUCT_NAME = SegmentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F209D519793E5C94F4953EBC5A635394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD3D69C94564C545A684B52F01C7605 /* CTMediatoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediatoKit/CTMediatoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediatoKit/CTMediatoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediatoKit/CTMediatoKit.modulemap";
+				PRODUCT_MODULE_NAME = CTMediatoKit;
+				PRODUCT_NAME = CTMediatoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -737,11 +1787,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B50E4B0C1C0E3BC580947F8C6FE5665 /* Build configuration list for PBXNativeTarget "SegmentView" */ = {
+		1804DE412151D9ED129320A5D8FA9763 /* Build configuration list for PBXNativeTarget "SegmentView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D6B5AA5225C65E70A885EAC31483016 /* Debug */,
-				0EEA5ADD4551EDCDB985FA283B17F91F /* Release */,
+				884E938B9F0BCF749BD1B40E51BB98C3 /* Debug */,
+				EA7990CB0F4CC293993CEB1AD399933C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4E94B475A2545C2F70C206D09DEBEE /* Build configuration list for PBXNativeTarget "CTMediatoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F209D519793E5C94F4953EBC5A635394 /* Debug */,
+				45485C8BDE7B86D5EB6B14C5432F1987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -749,26 +1808,44 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62780A8B4B44B3DFA98345371325579F /* Debug */,
-				3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94799B82EBE26BA9952BFC0FF937AFFF /* Build configuration list for PBXNativeTarget "Pods-SegmentView_Tests" */ = {
+		771074C7DC32053764E1E377CDA93033 /* Build configuration list for PBXNativeTarget "SLCategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70E146DB87016138B091212AA01788E /* Debug */,
-				1029418793344A94A0FF0E72A79615AC /* Release */,
+				A0806599879B961D6B85213D770DFA9F /* Debug */,
+				B7017AE4BA00EB45186AF86A01D402A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC8246850E844CAB56B0B429952EAF50 /* Build configuration list for PBXNativeTarget "Pods-SegmentView_Example" */ = {
+		81678AA05AB2F29E7448A79789A4D908 /* Build configuration list for PBXNativeTarget "Pods-SegmentView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FED7C3F4F6A056BB0004B5F17757CE2 /* Debug */,
-				098DF62F247572DB54930DB140E21797 /* Release */,
+				C1CE07D78A49E0ECDC2C96364B8793D4 /* Debug */,
+				87193519ABBD24171FDE4BF6F41AE183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C65F7CC9708EE0690525E4800598E8E /* Debug */,
+				527D6664223B803E9C7307F58E3CA12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4C0A402A17D68BB3A9D8E5CCD4FDC3 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF596DB6889CEB7D6D29E64760F8F656 /* Debug */,
+				DB312A21F4735FFA22A046FEA3F3F176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
