@@ -32,7 +32,6 @@
         _servicePhoneImageV.layer.masksToBounds = YES;
         _servicePhoneImageV.layer.cornerRadius = 30;
         _servicePhoneImageV.userInteractionEnabled = YES;
-        _servicePhoneImageV.image = [SegmentBundlePlistManager getImageForDeviceNamed:@"game_01_phone"];
         UITapGestureRecognizer *phoneTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(callServicePhone:)];
         [_servicePhoneImageV addGestureRecognizer:phoneTap];
     }
@@ -46,7 +45,6 @@
         _serviceQQImageV.userInteractionEnabled = YES;
         _serviceQQImageV.layer.masksToBounds = YES;
         _serviceQQImageV.layer.cornerRadius = 30;
-        _serviceQQImageV.image = [SegmentBundlePlistManager getImageForDeviceNamed:@"game_01_qq"];
         UITapGestureRecognizer *phoneTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(chatServiceQQ:)];
         [_serviceQQImageV addGestureRecognizer:phoneTap];
     }

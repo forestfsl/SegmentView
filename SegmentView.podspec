@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SegmentView'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'This is a module library that encapsulates the view component.'
 
 # This description is used to generate tags and improve search results.

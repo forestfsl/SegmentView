@@ -186,7 +186,6 @@
 - (UIImageView *)showBgImageV{
     if (!_showBgImageV) {
         _showBgImageV = [UIImageView createImageView];
-        _showBgImageV.image = [SegmentBundlePlistManager getImageForDeviceNamed:@"background"];
     }
     return _showBgImageV;
 }
