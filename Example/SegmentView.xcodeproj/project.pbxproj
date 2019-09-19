@@ -320,6 +320,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-SegmentView_Example/Pods-SegmentView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CTMediatoKit/CTMediatoKit.framework",
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/CommonKit/CommonKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SLCategory/SLCategory.framework",
 				"${BUILT_PRODUCTS_DIR}/SegmentView/SegmentView.framework",
@@ -328,6 +329,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediatoKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SLCategory.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SegmentView.framework",

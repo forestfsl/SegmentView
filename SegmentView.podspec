@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SegmentView'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'This is a module library that encapsulates the view component.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ This is a module library that encapsulates the view component
   
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
 #  s.source_files = 'SegmentView/Classes/**/*'
 
@@ -75,7 +75,7 @@ end
   s.dependency 'CTMediator'
   s.dependency 'SLCategory'
   s.dependency 'CTMediatoKit'
-  
+  s.dependency 'CommonKit','~> 0.0.2'
   
 
 #添加系统依赖静态库

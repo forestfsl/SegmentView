@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediatoKit" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/SLCategory" "${PODS_CONFIGURATION_BUILD_DIR}/SegmentView"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediatoKit" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/CommonKit" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/SLCategory" "${PODS_CONFIGURATION_BUILD_DIR}/SegmentView"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediatoKit/CTMediatoKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SLCategory/SLCategory.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SegmentView/SegmentView.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediatoKit/CTMediatoKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CommonKit/CommonKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SLCategory/SLCategory.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SegmentView/SegmentView.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "CTMediatoKit" -framework "CTMediator" -framework "Foundation" -framework "Masonry" -framework "SLCategory" -framework "SegmentView" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -framework "CTMediatoKit" -framework "CTMediator" -framework "CommonKit" -framework "Foundation" -framework "Masonry" -framework "SLCategory" -framework "SegmentView" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

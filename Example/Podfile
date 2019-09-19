@@ -11,6 +11,7 @@ target 'SegmentView_Example' do
   pod 'CTMediator'
   pod 'CTMediatoKit','~> 0.0.4'
   pod 'SLCategory', '~> 0.0.1'
+  pod 'CommonKit', '~> 0.0.3'
 #
 #  target 'SegmentView_Tests' do
 #    inherit! :search_paths

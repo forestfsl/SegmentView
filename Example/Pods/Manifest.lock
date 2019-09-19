@@ -1,16 +1,61 @@
 PODS:
+  - CommonKit (0.0.3):
+    - CommonKit/Macro (= 0.0.3)
+  - CommonKit/Macro (0.0.3)
   - CTMediatoKit (0.0.4):
     - CTMediator
   - CTMediator (25)
   - Masonry (1.1.0)
-  - SegmentView (1.0.0):
+  - SegmentView (0.0.3):
+    - CommonKit (~> 0.0.2)
+    - CTMediatoKit
+    - CTMediator
+    - Masonry
+    - SegmentView/Macro (= 0.0.3)
+    - SegmentView/Target (= 0.0.3)
+    - SegmentView/Tools (= 0.0.3)
+    - SegmentView/View (= 0.0.3)
+    - SegmentView/Widget (= 0.0.3)
+    - SLCategory
+  - SegmentView/Macro (0.0.3):
+    - CommonKit (~> 0.0.2)
     - CTMediatoKit
     - CTMediator
     - Masonry
     - SLCategory
+  - SegmentView/Target (0.0.3):
+    - CommonKit (~> 0.0.2)
+    - CTMediatoKit
+    - CTMediator
+    - Masonry
+    - SegmentView/View
+    - SLCategory
+  - SegmentView/Tools (0.0.3):
+    - CommonKit (~> 0.0.2)
+    - CTMediatoKit
+    - CTMediator
+    - Masonry
+    - SLCategory
+  - SegmentView/View (0.0.3):
+    - CommonKit (~> 0.0.2)
+    - CTMediatoKit
+    - CTMediator
+    - Masonry
+    - SegmentView/Macro
+    - SegmentView/Tools
+    - SegmentView/Widget
+    - SLCategory
+  - SegmentView/Widget (0.0.3):
+    - CommonKit (~> 0.0.2)
+    - CTMediatoKit
+    - CTMediator
+    - Masonry
+    - SegmentView/Macro
+    - SLCategory
   - SLCategory (0.0.1)
 
 DEPENDENCIES:
+  - CommonKit (~> 0.0.3)
   - CTMediatoKit (~> 0.0.4)
   - CTMediator
   - Masonry
@@ -22,6 +67,7 @@ SPEC REPOS:
     - CTMediator
     - Masonry
   https://github.com/forestfsl/SegmentSpecs.git:
+    - CommonKit
     - CTMediatoKit
     - SLCategory
 
@@ -30,12 +76,13 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CommonKit: e80376fe19a4fd1db1d085aaed85342fda53d8c9
   CTMediatoKit: 17040c73a3547835990c5cbdec7e2ee20f5ac3e6
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  SegmentView: 04005602959fa7cdd0925958f2bbc267e5766d66
+  SegmentView: 53e671d23bdea82ed65535bd0a26a0b8787b8a43
   SLCategory: 54ff167d589de5a7c89dcf74225511c06b94d370
 
-PODFILE CHECKSUM: 34c419762cfd069ee6b3586fe71813a3cd5b133a
+PODFILE CHECKSUM: fa426e685066ee70b3f2bf18271920400a100b40
 
 COCOAPODS: 1.7.5

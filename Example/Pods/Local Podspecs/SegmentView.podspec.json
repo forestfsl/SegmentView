@@ -1,6 +1,6 @@
 {
   "name": "SegmentView",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "summary": "This is a module library that encapsulates the view component.",
   "description": "TODO: Add long description of the pod here.\nThis is a module library that encapsulates the view component",
   "homepage": "https://github.com/forestfsl/SegmentView",
@@ -13,12 +13,11 @@
   },
   "source": {
     "git": "https://github.com/forestfsl/SegmentView.git",
-    "tag": "1.0.0"
+    "tag": "0.0.3"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
-  "source_files": "SegmentView/Classes/**/*",
   "dependencies": {
     "Masonry": [
 
@@ -31,6 +30,52 @@
     ],
     "CTMediatoKit": [
 
+    ],
+    "CommonKit": [
+      "~> 0.0.2"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Macro",
+      "source_files": "SegmentView/Macro/SegmentConfigMacro.h"
+    },
+    {
+      "name": "Tools",
+      "source_files": "SegmentView/Tools/*{h,m}"
+    },
+    {
+      "name": "Widget",
+      "source_files": "SegmentView/Widget/*",
+      "dependencies": {
+        "SegmentView/Macro": [
+
+        ]
+      }
+    },
+    {
+      "name": "View",
+      "source_files": "SegmentView/View/*",
+      "dependencies": {
+        "SegmentView/Macro": [
+
+        ],
+        "SegmentView/Tools": [
+
+        ],
+        "SegmentView/Widget": [
+
+        ]
+      }
+    },
+    {
+      "name": "Target",
+      "source_files": "SegmentView/Target/*",
+      "dependencies": {
+        "SegmentView/View": [
+
+        ]
+      }
+    }
+  ]
 }

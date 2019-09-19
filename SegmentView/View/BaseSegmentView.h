@@ -12,6 +12,7 @@
 #import "SegmentConfigMacro.h"
 #import "SegmentButton.h"
 #import "SegmentTextField.h"
+#import "CommonMarco.h"
 
 typedef void(^SegmentViewPhotoCompleteBlock)(void);
 
